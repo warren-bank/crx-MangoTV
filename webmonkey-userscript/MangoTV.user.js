@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.2
+// @version      1.0.3
 // @include      /^https?:\/\/(?:w(?:ww)?\.)?mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
@@ -46,7 +46,8 @@ var state = {
   did:      null,
   tk2:      null,
   pm2:      null,
-  streams:  null
+  streams:  null,
+  stream_domains: null
 }
 
 // ----------------------------------------------------------------------------- helpers (state)
@@ -140,9 +141,13 @@ var download_text = function(url, headers, data, callback) {
   xhr.onload = function(e) {
     if (xhr.readyState === 4) {
       if (xhr.status === 200) {
-        callback(xhr.responseText)
+        callback(null, xhr.responseText)
       }
     }
+  }
+
+  xhr.onerror = function(error) {
+    callback(error)
   }
 
   if (data)
@@ -157,11 +162,18 @@ var download_json = function(url, headers, data, callback) {
   if (!headers.accept)
     headers.accept = 'application/json'
 
-  download_text(url, headers, data, function(text){
-    try {
-      callback(JSON.parse(text))
+  download_text(url, headers, data, function(error, text){
+    if (error) {
+      callback(error)
     }
-    catch(e) {}
+    else {
+      try {
+        callback(null, JSON.parse(text))
+      }
+      catch(e) {
+        callback(e)
+      }
+    }
   })
 }
 
@@ -170,9 +182,11 @@ var download_json = function(url, headers, data, callback) {
 var download_api_data = function(callback) {
   var api_url = 'https://pcweb.api.mgtv.com/player/video?video_id=' + state.video_id + '&tk2=' + state.tk2
 
-  download_json(api_url, null, null, function(api_data){
+  download_json(api_url, null, null, function(error, api_data){
     if (user_options.developer.debug)
-      console.log('api_data:', JSON.stringify(api_data, null, 2))
+      console.log('api_data:', error || JSON.stringify(api_data, null, 2))
+
+    if (error) return
 
     try {
       state.pm2 = api_data['data']['atc']['pm2']
@@ -185,16 +199,18 @@ var download_api_data = function(callback) {
 }
 
 var download_stream_data = function(callback) {
-  var api_url = 'https://pcweb.api.mgtv.com/player/getSource?video_id=' + state.video_id + '&tk2=' + state.tk2 + '&pm2=' + state.pm2
+  var api_url = 'https://pcweb.api.mgtv.com/player/getSource?video_id=' + state.video_id + '&tk2=' + state.tk2 + '&pm2=' + state.pm2 + '&_support=10000000'
 
   if (!user_options.common.redirect_to_best_resolution && user_options.common.no_redirect.abroad)
     api_url += '&abroad=' + user_options.common.no_redirect.abroad
 
-  download_json(api_url, null, null, function(stream_data){
+  download_json(api_url, null, null, function(error, stream_data){
     var streams
 
     if (user_options.developer.debug)
-      console.log('stream_data:', JSON.stringify(stream_data, null, 2))
+      console.log('stream_data:', error || JSON.stringify(stream_data, null, 2))
+
+    if (error) return
 
     try {
       streams = stream_data['data']['stream']
@@ -225,9 +241,10 @@ var download_stream_data = function(callback) {
       })
 
       state.streams = streams
+      state.stream_domains = stream_data['data']['stream_domain'] || []
 
       if (user_options.common.redirect_to_best_resolution) {
-        download_video_data(0, process_video_url)
+        download_video_data(process_video_url, 0)
       }
       else {
         callback()
@@ -237,25 +254,34 @@ var download_stream_data = function(callback) {
   })
 }
 
-var download_video_data = function(stream_index, callback) {
-  var api_url = state.streams[stream_index].url
+var download_video_data = function(callback, stream_index, stream_domain_index) {
+  stream_index = stream_index || 0
+  stream_domain_index = stream_domain_index || 0
+  if (stream_index >= state.streams.length) return
+  if (stream_domain_index >= state.stream_domains.length) return
 
-  if (api_url[0] === '/')
-    api_url = 'https://disp-glb.titan.mgtv.com' + api_url + '&did=' + state.did
+  var api_url = state.stream_domains[stream_domain_index] + state.streams[stream_index].url + '&did=' + state.did
 
-  download_json(api_url, null, null, function(video_data){
+  download_json(api_url, null, null, function(error, video_data){
     var video_url
 
     if (user_options.developer.debug)
-      console.log('video_data:', JSON.stringify(video_data, null, 2))
+      console.log('video_data:', error || JSON.stringify(video_data, null, 2))
 
     try {
+      if (error) throw error
+
       video_url = video_data.info
+
+      if (video_url === 'busy')
+        throw 'busy'
 
       if (video_url)
         callback(video_url)
     }
-    catch(e) {}
+    catch(e) {
+      download_video_data(callback, stream_index, stream_domain_index + 1)
+    }
   })
 }
 
@@ -537,6 +563,7 @@ var reinitialize_dom = function() {
 
   var html = {
     "head": [
+      '<meta name="referrer" content="strict-origin-when-cross-origin" />',
       '<style>',
 
       // --------------------------------------------------- CSS: global
@@ -749,7 +776,7 @@ var download_video = function(stream_index, block_element, old_button) {
     }
   }
 
-  download_video_data(stream_index, callback)
+  download_video_data(callback, stream_index)
 }
 
 // -------------------------------------
