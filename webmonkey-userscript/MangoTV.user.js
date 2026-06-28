@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.0
+// @version      1.0.1
 // @include      /^https?:\/\/(?:w(?:ww)?\.)?mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
-// @run-at       document-end
+// @run-at       document-start
 // @grant        unsafeWindow
 // @grant        GM_startIntent
 // @homepage     https://github.com/warren-bank/crx-MangoTV/tree/webmonkey-userscript/es5
@@ -43,6 +43,7 @@ var user_options = {
 
 var state = {
   video_id: null,
+  did:      null,
   tk2:      null,
   pm2:      null,
   streams:  null
@@ -69,14 +70,14 @@ var encode_tk2 = function(){
     return btoa(input.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''));
   }
 
-  var uuidStr = UUIDv4();
+  state.did = UUIDv4();
   var timestamp = Math.floor(Date.now() / 1000);
 
-  var inputStr = 'did=' + uuidStr + '|pno=1030|ver=0.3.0301|clit=' + timestamp;
+  var inputStr = 'did=' + state.did + '|pno=1030|ver=0.3.0301|clit=' + timestamp;
   var encoded = urlSafeBase64Encode(inputStr);
   var reversed = encoded.split('').reverse().join('');
 
-  return reversed;
+  state.tk2 = reversed;
 }
 
 // ----------------------------------------------------------------------------- helpers (xhr)
@@ -240,7 +241,7 @@ var download_video_data = function(stream_index, callback) {
   var api_url = state.streams[stream_index].url
 
   if (api_url[0] === '/')
-    api_url = 'https://disp-glb.titan.mgtv.com' + api_url
+    api_url = 'https://disp-glb.titan.mgtv.com' + api_url + '&did=' + state.did
 
   download_json(api_url, null, null, function(video_data){
     var video_url
@@ -885,7 +886,7 @@ var init = function() {
   if (!match) return
 
   state.video_id = match[1]
-  state.tk2 = encode_tk2()
+  encode_tk2()
 
   download_api_data(function(){
     download_stream_data(function(){
