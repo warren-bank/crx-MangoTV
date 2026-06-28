@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.1
+// @version      1.0.2
 // @include      /^https?:\/\/(?:w(?:ww)?\.)?mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
@@ -523,10 +523,14 @@ var get_webcast_reloaded_url_proxy = function(hls_url, caption_url, referer_url)
 
 // -------------------------------------  DOM: static skeleton
 
-var reinitialize_dom = function() {
+var reset_dom = function() {
   unsafeWindow.document.close()
   unsafeWindow.document.write('')
   unsafeWindow.document.close()
+}
+
+var reinitialize_dom = function() {
+  reset_dom()
 
   var head = unsafeWindow.document.getElementsByTagName('head')[0]
   var body = unsafeWindow.document.body
@@ -884,6 +888,7 @@ var init = function() {
   var video_id_regex = /^https?:\/\/(?:w(?:ww)?\.)?mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
   var match = video_id_regex.exec(unsafeWindow.location.href)
   if (!match) return
+  reset_dom()
 
   state.video_id = match[1]
   encode_tk2()
