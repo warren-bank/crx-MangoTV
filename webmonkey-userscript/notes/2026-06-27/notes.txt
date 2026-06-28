@@ -1,0 +1,546 @@
+--------------------------------------------------------------------------------
+
+https://w.mgtv.com/?lang=en
+
+https://w.mgtv.com/h/881192.html?fpa=1132&fpos=&lastp=ch_home&lang=en
+  series
+
+https://w.mgtv.com/b/881192/24461714.html?lastp=v_progdtl&lang=en
+  episode: S01E01
+
+https://tinker.glb.mgtv.com/player/getSource?_support=10000000&tk2=3QTM4AjNygzNx0Ddpx2Y8FDMzAjLz4CM9IXZ2xHMzATM98mbwx3MzMzM2cTNmRTM4EWLycjZ50iZ0EGNtUGOjFTLhZDZ1cTY0UWPklGZ&pm2=6~BiMoYdF0oRGkNWjNvxmJ9al9nuI4Z5wYcOF_OLmzLCISCaDIhz~JSHg8H8Zdm57yYVzf1KBk8rxSOFY87V7MGQYOXrANpk6moeNKgnKLCSnezp4~A1T6tVM8JjDGaV5KSa7tKYieyEYA_Jd4ahyFv4aF_HjTzhfoBx7OqyNFsi9Lk3mI9itanb9E5tczlGrznBfD4LOBGbl7qqJtcb4e2ZEJdR7QWyTEkWehLC7nKwdiOP&video_id=24461714&type=pch5&auth_mode=1&cxid=&supportMse=1&src=intelmgtv&abroad=10&callback=jsonp_1782608147038_16937&allowedRC=1
+  jsonp_1782608147038_16937({
+    "data": {
+      "sourceTicket": "",
+      "bulletCommentMask": "",
+      "stream": [{
+          "standardName": "480P",
+          "def": "1",
+          "videoFormat": "H264",
+          "audioTrack": 2,
+          "defLevel": 1,
+          "scale": "16:9",
+          "barName": "480P",
+          "filebitrate": "663",
+          "audioFormat": "AAC",
+          "url": "/atcl?pm2=xB4uQxCWPjVgeEQzIQyCS~~utq~fKQSNs0zFLtVH7HGHXuoPLo~U5kWMUqktGIhOzV_URZt6zAdp0fVGVdBRE0DrX2JyiFezT8breH4Nsj5y~t938UBVIDG_2nrasx1T4CR~xXCfJnO9xotFK81Ka1yNN8Xrl2CtJ_aOOH1giIrTDNB41IdTGIzN9sJtESXqvW16ByhOxtu6Z~SI9tkgiOmBVy3wcbWsNVtD2CZASI_EAImoBTJhPNBmLcV7iMIPJabEhZSrqbur8cmPgTQGLVNScQm9Wl8kdt3ogHGeLDM5JsKL~QL9CsqQibhCWtUP0Oqj55FY9psKVmnS_j8jxOJ8S7KEuL0Qb5V_up6_hz_3oIVn6aSb05oxhDIdaMIRIKCpgeDhHCvbA~QcJWIjHLugt9JbTGiZq2~yN~3q34h9vIld1ZmJSLN1jK_si_Ad2qqD60GE_L8IoyD7xO9Q8hcU4kjodK~8aE0eZdpuVRhCsf3d93v5Tta5CyI6R05VjdKMKmGxL8dMUnqYRc2Or~Cu7xsXE8kHl8XPuX9CLH71W8wB9r~21Q--&gsid=c781ad0e-9df7-4657-aaa4-88c5279266a5&pno=1030&arange=0",
+          "name": "480P",
+          "fileformat": "HLS-TS",
+          "vip": "0",
+          "fileStartTime": "1.48"
+        },
+        {
+          "standardName": "576P",
+          "def": "2",
+          "videoFormat": "H264",
+          "audioTrack": 2,
+          "defLevel": 1,
+          "scale": "16:9",
+          "barName": "576P",
+          "filebitrate": "903",
+          "audioFormat": "AAC",
+          "url": "/atcl?pm2=zIhlHIQ7mQ1kJMaeisHUEZOeLZQfChLJJyQYvfVSLesg1HcayvgxVypOjlqNwU~vu3rzcF8wDGThjwZh4hlw3fB4wQfJ4fnKCldq6Xsd5iJ0PKAQbgwlpcpLldCfajCS7E77oTO1Xh39_4B15zz~EBWQ5ArKp6FmDWtLYyUa1rO7G_qmdV7TCm12xquoqrcPJ0ZnNGs0wEHZRnM1W0KB72cE~FTGdfUtWfpbFyIm9BD7rjaVJ8IPeGw5LKgJAITNmmwv8ZulaYlWtX6mH9i2knW7IrWEWygmdQ5i1e8_uBzjxeFBPw8lv_h6KZCH~FwIArUvmOR76BPrfrXZd5MSfUlf2Va9Dk9hb5GBRNG2DJc2GN53j2JM99DKpsw9MI6qHtPIdGedS~xNdkSmjUIKOk3ZeeZDMZon141ESWqLmgi5Q3XhJBY22MBz7h_yaY3R19MCWCJnIoGDBqkxye_~GxX6h0~ntvPW_EQk36obrnTcs5VEaP05VfPln3EyvZPczHl6v~GnEROTXz7pyTlbNuYuOUmaggX9lNg9iSPPb0TZj76IH3wDrA--&gsid=2178af9e-fd0c-4494-ab21-8f0c95a858e9&pno=1030&arange=0",
+          "name": "576P",
+          "fileformat": "HLS-TS",
+          "vip": "0",
+          "fileStartTime": "1.48"
+        },
+        {
+          "standardName": "720P",
+          "def": "3",
+          "videoFormat": "H264",
+          "audioTrack": 2,
+          "defLevel": 1,
+          "scale": "16:9",
+          "barName": "720P",
+          "filebitrate": "1147",
+          "audioFormat": "AAC",
+          "url": "/atcl?pm2=SbTOT7R374NY3M_Tp4V~tv2nJT~mVE9PdG_4Jsduln3n_UMzyAUkphH9NhecH76nb03vH~xUfAkn6UQWLknV52XgCKsf9KijXU4mYFJjQkzeKljLJrdEDuDDP1EYAnKF6xsK5lJLzg~qgcY1I7utCr1hDX8zjQBNjUuijBBSe75TURsTpJ40SIGNAH7dCu7ryT679RBx8Y9goUSXBUbpXgBS~7lYF5Ej1ncdlnzxoE_fPv3W2ADQqY4zAF2tkLLp6P8ZHaKi7wdwCGe59U67afKD6rUVApbePzdQFQ06Z3~yjpS~Nq3cVS5fTmm3m9IhBbgeqCulpu7jeI_R4nEPAcNku9NcfO0lsLoV5Iny0bSjh3UVfwGyaOQGp_4rdn~Avz_U70RAWF3h8Eh4I08nshY8gy09hSrG9NouBOR5LB9u5~JUYo5mX8ud8Lyg_Ow1abvmw_QyTg4YRkSYIsFS1fRyEI2PGw6gT~Em~5jDsy3BliGR7U1MmWp0m1nn9a0ylBfOlXW9Lknq4LPuNdfTcmWV6Y82_AWYfthHpODoO0P2YsRycTILuw--&gsid=bfd23647-8817-45c2-a790-3053493c6f64&pno=1030&arange=0",
+          "name": "720P",
+          "fileformat": "HLS-TS",
+          "vip": "0",
+          "fileStartTime": "1.48"
+        },
+        {
+          "standardName": "1080P SDR",
+          "def": "4",
+          "videoFormat": "H264",
+          "audioTrack": 2,
+          "defLevel": 1,
+          "scale": "16:9",
+          "barName": "1080P SDR",
+          "filebitrate": "2356",
+          "audioFormat": "AAC",
+          "url": "",
+          "name": "1080P SDR",
+          "fileformat": "HLS-TS",
+          "vip": "1",
+          "fileStartTime": "1.48"
+        }
+      ],
+      "stream_mpd": [],
+      "tk2": "-gDM2ETM2IDO3ETPsFmd",
+      "stream_domain": ["https://disp-glb.titan.mgtv.com", "https://disp-glb1.titan.mgtv.com", "https://disp-glb2.titan.mgtv.com"],
+      "abrStream": [],
+      "abrConfig": {}
+    },
+    "code": 200,
+    "msg": "",
+    "seqid": "e1840a36c6734e76a1e4f61c2b84407c",
+    "timestamp": 1782608150219
+  })
+
+https://disp-glb.titan.mgtv.com/atcl?pm2=xB4uQxCWPjVgeEQzIQyCS~~utq~fKQSNs0zFLtVH7HGHXuoPLo~U5kWMUqktGIhOzV_URZt6zAdp0fVGVdBRE0DrX2JyiFezT8breH4Nsj5y~t938UBVIDG_2nrasx1T4CR~xXCfJnO9xotFK81Ka1yNN8Xrl2CtJ_aOOH1giIrTDNB41IdTGIzN9sJtESXqvW16ByhOxtu6Z~SI9tkgiOmBVy3wcbWsNVtD2CZASI_EAImoBTJhPNBmLcV7iMIPJabEhZSrqbur8cmPgTQGLVNScQm9Wl8kdt3ogHGeLDM5JsKL~QL9CsqQibhCWtUP0Oqj55FY9psKVmnS_j8jxOJ8S7KEuL0Qb5V_up6_hz_3oIVn6aSb05oxhDIdaMIRIKCpgeDhHCvbA~QcJWIjHLugt9JbTGiZq2~yN~3q34h9vIld1ZmJSLN1jK_si_Ad2qqD60GE_L8IoyD7xO9Q8hcU4kjodK~8aE0eZdpuVRhCsf3d93v5Tta5CyI6R05VjdKMKmGxL8dMUnqYRc2Or~Cu7xsXE8kHl8XPuX9CLH71W8wB9r~21Q--&gsid=c781ad0e-9df7-4657-aaa4-88c5279266a5&pno=1030&arange=0&did=e4a75d6a-1c8e-4a4f-9f72-a814f5763333&suuid=b6610b91-677b-4061-ba09-ce89ca0cfcbc&&callback=jsonp_1782608148037_93073
+  jsonp_1782608148037_93073({
+    "ver": "4.8.4",
+    "info": "https://pcvideotx-hw.titan.mgtv.com/c1/2026/06/25_0/18406E32FCF5170F7D8B5C278E2A2643_20260625_1_1_645_mp4/8A83E3F1060232A96C93DA9C93BC0A26.m3u8?arange=0&pm=8xCfBqI2tgLhgp3kyiVOsI_fcdutwWCo6IRqucix9~rPlaOY916i0KKNhvFN1BypwjJR3RtlH6gdo3VIsuePaLh68A74~teOYciqhaeW45Ma3CH4A4R4bxQGQqVTc8acNgetY7enXbps6J1GnsQ3rJEzrLYpEkMTBRD1rYq73J2~glVOBM_Fdag6w49STBdI9qyDqEXcNJwZ2RY~sv4lDxAV0_4JFqESpQ9CGMVMXv9Yi5H5hfc8gCWWTi1LI3QAwbuKrOJPV5xPvUbey_du2cT_cnhFBuKw3z7xjYqYcdYyuB3DhrVq0VfK1op_M~sTmtUSR1p7jbYqy~VZPICTYZuk9kkaByWKmlGf_e2EOiBjylo0QY1LmR6NzkDCO1JBf4i6SnBn8QNqLfPMsiMllwV5HJwuh3qTcJ6rkF7RhR3J9nXQBDJs5PWrvTRvdQLax8C80YYzN6s-&mr=qP5hvyXXYofi7II6k89Ycwg5EiPzAvEC36lwbqjPtikMtdK~C5gPdI0WIxR__Wr4Rw8z89ku8EeSbjMF3wOoEgNKHbz4tNhpjuI9PW2kjw_GrBTt~QJ9EdbGoD7VIOVheGMYdcU4_ldvCk4AbyEeHIzeJpeOct2ribjLQ8lglN3XGiAWNAB_OIV8HH6_k7_L4aCQ6xkmmx9y8iwVAt2nOMo6zg0m6cbGgmj3~NzThkeHgMIrdBBqXP~uitQNK4VKFWVPQdzyBmA~F9kUYMBZDVvhb88AtAn2PI~8atBagV9rWDyH4~mMLYvQPi1MMYrmBsb9hxS9Xz4rlObJDMNZQzZ_zT9DKkblfbs12LlaRmPoqLkrZFkF1DKBl9d7LpBxFgr8VGpWZa0aXG3zR~oLP0MxChQaudNfXczKe8PvtnFXAEmjerfqQ0PYev6v2Sj~L~5tmMf6yngScMiwgnaGeNdRddz6yQ3KUeSpdNv3IQTGyfc2t0QJfcaewlxSzgSPzttGtTCH2Btf7R6U501yOYXYcteHaYk7P4V6Aqg5vlItO2rz2Co8tnh9trtQvVWZx8WBSsB1Xfg3MrfVGlpG2x8HOmmFliZZHtf9~CR2rcPe71~1mCurBAM1VCSiV8FYvXGyiw--&uid=null&term=4&def=1&scid=25146&cpno=6i06rp&ruid=6ef13741921e4194&sh=1",
+    "t": 1782608151,
+    "ext": "0",
+    "isothercdn": 1,
+    "loc": "10355",
+    "status": "ok",
+    "idc": "txhw_cdn"
+  })
+
+https://pcvideotx-hw.titan.mgtv.com/c1/2026/06/25_0/18406E32FCF5170F7D8B5C278E2A2643_20260625_1_1_645_mp4/8A83E3F1060232A96C93DA9C93BC0A26.m3u8?arange=0&pm=8xCfBqI2tgLhgp3kyiVOsI_fcdutwWCo6IRqucix9~rPlaOY916i0KKNhvFN1BypwjJR3RtlH6gdo3VIsuePaLh68A74~teOYciqhaeW45Ma3CH4A4R4bxQGQqVTc8acNgetY7enXbps6J1GnsQ3rJEzrLYpEkMTBRD1rYq73J2~glVOBM_Fdag6w49STBdI9qyDqEXcNJwZ2RY~sv4lDxAV0_4JFqESpQ9CGMVMXv9Yi5H5hfc8gCWWTi1LI3QAwbuKrOJPV5xPvUbey_du2cT_cnhFBuKw3z7xjYqYcdYyuB3DhrVq0VfK1op_M~sTmtUSR1p7jbYqy~VZPICTYZuk9kkaByWKmlGf_e2EOiBjylo0QY1LmR6NzkDCO1JBf4i6SnBn8QNqLfPMsiMllwV5HJwuh3qTcJ6rkF7RhR3J9nXQBDJs5PWrvTRvdQLax8C80YYzN6s-&mr=qP5hvyXXYofi7II6k89Ycwg5EiPzAvEC36lwbqjPtikMtdK~C5gPdI0WIxR__Wr4Rw8z89ku8EeSbjMF3wOoEgNKHbz4tNhpjuI9PW2kjw_GrBTt~QJ9EdbGoD7VIOVheGMYdcU4_ldvCk4AbyEeHIzeJpeOct2ribjLQ8lglN3XGiAWNAB_OIV8HH6_k7_L4aCQ6xkmmx9y8iwVAt2nOMo6zg0m6cbGgmj3~NzThkeHgMIrdBBqXP~uitQNK4VKFWVPQdzyBmA~F9kUYMBZDVvhb88AtAn2PI~8atBagV9rWDyH4~mMLYvQPi1MMYrmBsb9hxS9Xz4rlObJDMNZQzZ_zT9DKkblfbs12LlaRmPoqLkrZFkF1DKBl9d7LpBxFgr8VGpWZa0aXG3zR~oLP0MxChQaudNfXczKe8PvtnFXAEmjerfqQ0PYev6v2Sj~L~5tmMf6yngScMiwgnaGeNdRddz6yQ3KUeSpdNv3IQTGyfc2t0QJfcaewlxSzgSPzttGtTCH2Btf7R6U501yOYXYcteHaYk7P4V6Aqg5vlItO2rz2Co8tnh9trtQvVWZx8WBSsB1Xfg3MrfVGlpG2x8HOmmFliZZHtf9~CR2rcPe71~1mCurBAM1VCSiV8FYvXGyiw--&uid=null&term=4&def=1&scid=25146&cpno=6i06rp&ruid=6ef13741921e4194&sh=1
+  OK
+
+--------------------------------------------------------------------------------
+
+https://github.com/ytdl-org/youtube-dl/raw/master/youtube_dl/extractor/mgtv.py
+  cheat.. how to generate URL:
+    https://tinker.glb.mgtv.com/player/getSource?..
+
+--------------------------------------------------------------------------------
+
+var encode_tk2 = function(){
+  // https://stackoverflow.com/questions/105034/how-to-create-guid-uuid
+  // https://github.com/kuoruan/es-packages/blob/master/packages/uuidv4/src/index.ts
+  function UUIDv4() {
+    var d = new Date().getTime();
+    if (typeof performance !== "undefined" && typeof performance.now === "function") {
+      d += performance.now(); // use high-precision timer if available
+    }
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function(c) {
+      var r = (d + Math.random() * 16) % 16 | 0;
+      d = Math.floor(d / 16);
+      return (c === "x" ? r : (r & 0x3) | 0x8).toString(16);
+    });
+  }
+
+  function urlSafeBase64Encode(input) {
+    return btoa(input.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''));
+  }
+
+  var uuidStr = UUIDv4();
+  var timestamp = Math.floor(Date.now() / 1000);
+
+  var inputStr = 'did=' + uuidStr + '|pno=1030|ver=0.3.0301|clit=' + timestamp;
+  var encoded = urlSafeBase64Encode(inputStr);
+  var reversed = encoded.split('').reverse().join('');
+
+  return reversed;
+}
+
+var decode_tk2 = function(reversed){
+  function urlSafeBase64Decode(input) {
+    return atob(input.replace(/-/g, '+').replace(/_/g, '/'));
+  }
+
+  var encoded = reversed.split('').reverse().join('');
+  var inputStr = urlSafeBase64Decode(encoded);
+
+  return inputStr;
+}
+
+--------------------------------------------------------------------------------
+
+{
+  console.log(
+    decode_tk2('3QTM4AjNygzNx0Ddpx2Y8FDMzAjLz4CM9IXZ2xHMzATM98mbwx3MzMzM2cTNmRTM4EWLycjZ50iZ0EGNtUGOjFTLhZDZ1cTY0UWPklGZ')
+  )
+}
+
+output:
+=======
+'did=e4a75d6a-1c8e-4a4f-9f72-a814f5763333|pno=1030|ver=0.3.0301|clit=1782608147'
+
+--------------------------------------------------------------------------------
+
+(async () => {
+  const video_id = '24461714' // extracted from URL
+  const tk2 = encode_tk2()
+
+  const api_data = await fetch(`https://pcweb.api.mgtv.com/player/video?video_id=${video_id}&tk2=${tk2}`).then(res => res.json())
+
+  console.log(JSON.stringify(api_data, null, 2))
+})()
+
+output:
+=======
+{
+  "data": {
+    "atc": {
+      "pm2": "XC00uo1wpuF8CzLD6Vd~dqveQaluB9jHjLmaEU4KuTfMvZGU5JPmowWnytTlMT6H~4CQDKuZI9NmVBsFYQijyBT9K72lBkrlfEeiJ_wlJJsKcxYgNOXpOLibtfFMrv0rcETQ_uKxPEiN9Bw87jKHQlvXeASmqjXR0OzoGpC0BR8Ck6GzxH0pQdLpicIUWsfY0E0tKqOC8XasM1nOQcohiDcH~5fntXRkZrlLXFBNaK7wYaRc",
+      "tk2": "-ATP0xmY8BjN5YTM2IDO3ETPsFmd8RTM3EjN0QjM9QWa2xHM9YXZyB3cpxHM9kXYwNXa8BTPwlmd"
+    },
+    "share": {
+      "qq": "http://connect.qq.com/widget/shareqq/index.html?title=%E6%88%91%E6%AD%A3%E5%9C%A8+%40%E8%8A%92%E6%9E%9CTV+%E7%9C%8B%E3%80%90%E7%88%B1%E4%BA%86%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96%E3%80%91%E5%B0%8F%E4%BC%99%E4%BC%B4%E4%BB%AC%E9%80%9F%E5%BA%A6%E5%9B%B4%E8%A7%82%E4%BA%86%7E&desc=%E5%9C%A8%E8%8A%92%E6%9E%9CTV%E4%B8%8A%E7%9C%8B%E8%A7%81%E8%BF%99%E6%9D%A1%E8%A7%86%E9%A2%91%E8%BF%98%E4%B8%8D%E9%94%99%E5%93%A6%EF%BC%9A%E7%88%B1%E4%BA%86%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96&site=%E8%8A%92%E6%9E%9CTV&url=http://www.mgtv.com/s/24461714.html%3Fdc%3D090f306b-3dba-46d5-8e51-360d1f24d601%26cxid%3D90fe36tp1&tpa=dW5pb25faWQ9MTAzMjUyXzEwMDAwMV8wMV8wMQ",
+      "weixin": "http://www.mgtv.com/share/weixin/?url=http://www.mgtv.com/s/24461714.html%3Fdc%3D3b91f2be-35b1-43b6-ada0-58961fbf984f&title=%E6%88%91%E6%AD%A3%E5%9C%A8+%40%E8%8A%92%E6%9E%9CTV+%E7%9C%8B%E3%80%90%E7%88%B1%E4%BA%86%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96%E3%80%91%E5%B0%8F%E4%BC%99%E4%BC%B4%E4%BB%AC%E9%80%9F%E5%BA%A6%E5%9B%B4%E8%A7%82%E4%BA%86%7E",
+      "weibo": "http://service.weibo.com/share/share.php?appkey=152400019&url=http://www.mgtv.com/s/24461714.html%3Fdc%3D4bf02290-ad6b-4471-9e73-4f2d0683f311%26cxid%3D94f9tkogo&title=%E6%88%91%E6%AD%A3%E5%9C%A8+%40%E8%8A%92%E6%9E%9CTV+%E7%9C%8B%E3%80%90%E7%88%B1%E4%BA%86%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96%E3%80%91%E5%B0%8F%E4%BC%99%E4%BC%B4%E4%BB%AC%E9%80%9F%E5%BA%A6%E5%9B%B4%E8%A7%82%E4%BA%86%7E&content=utf-8&pic=https://2img.hitv.com/preview/sp_images/2026/06/25/20260625164635854.jpg",
+      "qzone": "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.mgtv.com/s/24461714.html%3Fdc%3D93b6803c-85e0-4c08-8e91-fb28c86cfb21%26cxid%3D90fe36tp1&title=%E6%88%91%E6%AD%A3%E5%9C%A8+%40%E8%8A%92%E6%9E%9CTV+%E7%9C%8B%E3%80%90%E7%88%B1%E4%BA%86%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96%E3%80%91%E5%B0%8F%E4%BC%99%E4%BC%B4%E4%BB%AC%E9%80%9F%E5%BA%A6%E5%9B%B4%E8%A7%82%E4%BA%86%7E",
+      "dc": "fef9fa7f-7395-4900-9a02-770a614ba7c9"
+    },
+    "user": {
+      "iplimit": "0",
+      "ticket": "",
+      "ip": "127.0.0.1",
+      "nickname": "",
+      "login": false,
+      "purview": "200",
+      "uuid": "",
+      "mac": "",
+      "isvip": "0",
+      "adVip": "0"
+    },
+    "stream_quality": {
+      "default_quality_force": "-999",
+      "default_quality": "-999"
+    },
+    "drm": {
+      "licenseUrl": "",
+      "drmFirm": "",
+      "drmType": ""
+    },
+    "frame": {
+      "images": [
+        "https://2vimg.hitv.com/video_frames/sprites/2026/06/25/24461714_9/24461714_9_170044_1133763307_400x226_1.jpg",
+        "https://0vimg.hitv.com/video_frames/sprites/2026/06/25/24461714_9/24461714_9_170044_1133763307_400x226_2.jpg",
+        "https://2vimg.hitv.com/video_frames/sprites/2026/06/25/24461714_9/24461714_9_170044_1133763307_400x226_3.jpg",
+        "https://2vimg.hitv.com/video_frames/sprites/2026/06/25/24461714_9/24461714_9_170044_1133763307_400x226_4.jpg"
+      ],
+      "imgSize": "400*226",
+      "second": [
+        "0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100|105|110|115|120|125|130|135|140|145|150|155|160|165|170|175|180|185|190|195|200|205|210|215|220|225|230|235|240|245|250|255|260|265|270|275|280|285|290|295|300|305|310|315|320|325|330|335|340|345|350|355|360|365|370|375|380|385|390|395|400|405|410|415|420|425|430|435|440|445|450|455|460|465|470|475|480|485|490|495",
+        "500|505|510|515|520|525|530|535|540|545|550|555|560|565|570|575|580|585|590|595|600|605|610|615|620|625|630|635|640|645|650|655|660|665|670|675|680|685|690|695|700|705|710|715|720|725|730|735|740|745|750|755|760|765|770|775|780|785|790|795|800|805|810|815|820|825|830|835|840|845|850|855|860|865|870|875|880|885|890|895|900|905|910|915|920|925|930|935|940|945|950|955|960|965|970|975|980|985|990|995",
+        "1000|1005|1010|1015|1020|1025|1030|1035|1040|1045|1050|1055|1060|1065|1070|1075|1080|1085|1090|1095|1100|1105|1110|1115|1120|1125|1130|1135|1140|1145|1150|1155|1160|1165|1170|1175|1180|1185|1190|1195|1200|1205|1210|1215|1220|1225|1230|1235|1240|1245|1250|1255|1260|1265|1270|1275|1280|1285|1290|1295|1300|1305|1310|1315|1320|1325|1330|1335|1340|1345|1350|1355|1360|1365|1370|1375|1380|1385|1390|1395|1400|1405|1410|1415|1420|1425|1430|1435|1440|1445|1450|1455|1460|1465|1470|1475|1480|1485|1490|1495",
+        "1500|1505|1510|1515|1520|1525|1530|1535|1540|1545|1550|1555|1560|1565|1570|1575|1580|1585|1590|1595|1600|1605|1610|1615|1620|1625|1630|1635|1640|1645|1650|1655|1660|1665|1670|1675|1680|1685|1690|1695|1700|1705|1710|1715|1720|1725"
+      ]
+    },
+    "points": {
+      "start": "",
+      "end": "",
+      "content": []
+    },
+    "info": {
+      "thumb": "https://2img.hitv.com/preview/sp_images/2026/06/25/20260625164635854.jpg",
+      "trialtime": "300",
+      "keepPlayType": 0,
+      "clipLimit": 1,
+      "starPointFlag": "0",
+      "paymark": "0",
+      "title": "爱了！中国式现代化",
+      "url": "http://www.mgtv.com/s/24461714.html",
+      "series_id": "0",
+      "collection_id": "881192",
+      "duration": "1729",
+      "drmFlag": "0",
+      "playlist_name": "",
+      "playlist_id": "",
+      "series": "第 2026-06-25 期",
+      "buytips": "",
+      "price_vip": "",
+      "watchTime": 0,
+      "root_id": "51",
+      "price_novip": "",
+      "clip_type": "1",
+      "collection_name": "",
+      "video_id": "24461714",
+      "desc": "一个都不能掉队"
+    },
+    "penc": "il/tnj8QzsVIaGK+/XHM0AGno/skChVXQoNYhMeNVUqZp4K7EGAbJX6XryqUTNo8upXmck6w5sFgT95oSWINYcjhgEqPfbIk",
+    "adParams": "{\"v\":{\"hid\":881192,\"partMold\":\"1\",\"ispay\":0,\"uname\":\"\",\"rname\":\"%E7%BA%AA%E5%BD%95%E7%89%87\",\"video_mode\":0,\"title\":\"%E7%88%B1%E4%BA%86%EF%BC%81%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96+%E7%AC%AC4%E9%9B%86%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%83%BD%E4%B8%8D%E8%83%BD%E6%8E%89%E9%98%9F\",\"rid\":51,\"ad_vip\":0,\"sub_type\":\"%E5%86%85%E5%9C%B0\",\"vtt\":1729,\"ad_op\":1,\"id\":24461714,\"keyword\":\"%E7%88%B1%E4%BA%86%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96+%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86+%E8%8A%92%E6%9E%9CTV+%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%80%BB%E4%B9%A6%E8%AE%B0+%E4%B8%AD%E5%9B%BD%E5%BC%8F%E7%8E%B0%E4%BB%A3%E5%8C%96+%E5%8E%86%E5%8F%B2%E7%94%B1%E6%9D%A5+%E9%A2%86%E5%AF%BC%E5%8A%9B%E9%87%8F+%E9%B2%9C%E6%98%8E%E7%89%B9%E5%BE%81+%E6%9C%AA%E6%9D%A5%E5%9B%BE%E6%99%AF+105%E5%91%A8%E5%B9%B4+%E7%90%86%E8%AE%BA%E7%89%87+%E4%B8%80%E4%B8%AA%E9%83%BD%E4%B8%8D%E8%83%BD%E6%8E%89%E9%98%9F\",\"on_date\":\"2026-06-25 16:44:46.0\",\"vip\":0,\"clip_type\":1,\"ucode\":\"\",\"penc\":\"il/tnj8QzsVIaGK+/XHM0AGno/skChVXQoNYhMeNVUqZp4K7EGAbJX6XryqUTNo8upXmck6w5sFgT95oSWINYcjhgEqPfbIk\",\"ispreview\":0}}"
+  },
+  "code": 200,
+  "msg": "",
+  "seqid": "dc2d5712c07f47cf95a0376adf2d5129",
+  "timestamp": 1782616785601
+}
+
+--------------------------------------------------------------------------------
+
+(async () => {
+  const video_id = '24461714' // extracted from URL
+  const tk2 = encode_tk2()
+
+  const api_data = await fetch(`https://pcweb.api.mgtv.com/player/video?video_id=${video_id}&tk2=${tk2}`).then(res => res.json())
+  const stream_data = await fetch(`https://pcweb.api.mgtv.com/player/getSource?video_id=${video_id}&tk2=${tk2}&pm2=${api_data['data']['atc']['pm2']}`).then(res => res.json())
+
+  console.log(JSON.stringify(stream_data, null, 2))
+})()
+
+output:
+=======
+{
+  "data": {
+    "sourceTicket": "",
+    "bulletCommentMask": "",
+    "stream": [
+      {
+        "standardName": "标清",
+        "def": "1",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 1,
+        "scale": "16:9",
+        "barName": "标清",
+        "filebitrate": "663",
+        "audioFormat": "AAC",
+        "url": "/atcl?pm2=6_C7oz1GJDK0sot6AZlKQx2V4uH_TAFy~Ijih7UIoNLfpMt4fWl19yIHKvdialPMNo7kxbS7W5SmkkMhBfLCGXK1rqTg4Kt6P_vIpkINnr6NVeSUsKwdOI3AOOlholwMFQmzAUIeWH0c4eTLcZP6IPNcahs8jVDmqmV1VtGkIBvjmkbh_WEXoh1C15FEseGyQ~P4N_bRzimBsodxKXBT4Ag82fF8wK2dkFz_7VucS5V1RZKrwYqslphV_XdET6XUhdExwjKD2nWneVwGnn0Y1M3wJmAcYApUc_ZJovnBTlSTlWCPMZBqyWaO3PGkIJfyCm~Yu7fMawE9DPKKd2FRc34fytHgqM~Q9mz2hEgoE_C2jJx7mAIzQICwlWavtjguROpQt_XfMNLGEE8EREAYZg4GVES9koZg6isR7NhWnGYD4D5sHichd_wVb0OKkMRCcxc2utYF1mIvZI~_x2fXp7FcfKvxJIIUmFHPtYgxzXzGVbIBH33dvCPJL1ADv~gz4CA51_ckmFjm93aFEmnR9adSQzwx1~f9a5G4G6kKpCbVqkprKluz_A--&gsid=d09e1743-7bc3-4cba-8e7d-8138371042ce&pno=1000&arange=0",
+        "name": "标清",
+        "fileformat": "HLS-TS",
+        "vip": "0",
+        "fileStartTime": "1.48"
+      },
+      {
+        "standardName": "高清",
+        "def": "2",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 1,
+        "scale": "16:9",
+        "barName": "高清",
+        "filebitrate": "903",
+        "audioFormat": "AAC",
+        "url": "/atcl?pm2=cn4aPkD5IujivRTPqpeFKpN47bUe6MkVU8vBGvdkGsKUa65e940VNchczAAlHw6rfk17Y5fooX2UGW84xEKIdV9PGDbTjmNKIWVqxLPN~x303XLl5DOVgDGhf2XkixCHEoyQzS5oOakkzMPU4xvQvnplUOlQ3K7j7uBt6Z9bDPE10SYGmq8q7WtfEgW1WL9Q_zL4lHO60UYOFp3Ji3Z_od20vmSsJ2hwyCXuEB9eWuy1kRB_brm_xd4RbrXrCCUpJK0ANwZnGjHMQ3NCUdFB7l6eHsvHLmzMT5__cjpMCPh78EYvr0MwoZyf2A5bR7Ooi8qoe2VGFM2_0~E12hIAHvTKSwxqB5ojgS2p4qUEElB81Tsl6TFJt6vo4JivbEGo5llFzAIofyEABJVuvToGj~~9kvCtyj1z1bEyoQWsEOZ3b~erpMU9K7GyBKlMHXBVqkGdLTaLKiRKQNglZpMJ1rB23p1e2lYtmgbNQ~stGiYhSgNQ2JWLtA~z5hSSx5nU03ePkgXtr7NpiXfzS6JjEX7eoIlZteN6vrRx7tyJkEsZwCHxODjc9w--&gsid=f27a1f20-3d1c-410b-9e20-7051f902831e&pno=1000&arange=0",
+        "name": "高清",
+        "fileformat": "HLS-TS",
+        "vip": "0",
+        "fileStartTime": "1.48"
+      },
+      {
+        "standardName": "超清",
+        "def": "3",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 2,
+        "scale": "16:9",
+        "barName": "超清",
+        "filebitrate": "1352",
+        "audioFormat": "AAC",
+        "url": "/atcl?pm2=7jI3k5ELl2krGPcr8EP9Aeo1KAVfgZknHeAG7L6cP~QSjYHIXwwdizdVhnyad9WXbJuxyjRA7WcR~r1R29Q19fR5NEnOtGNqqXzETcptorgOxya1a71F~qnfr3fR4kav0uFxKdEorkPi3UJBS8vlonUe6G~Fg6vMuTFznZNpv7tejgEVLUrLGF6BhjvuVALHdY0p36q0rgiovmtksn93TReozQlEI621DrTnsTO7RGTaxk0Y8GYFiXi4XXkJ_5Sh77vcLYx1khbW72OCUuPRb1cEjf1VI77waJNcXSs2_FR_ZOfhCcbHVQX6Vq~rKt6oGKjl5wJJ19RorUZNzqtYjczrZMbpP36S3dL6frXobrQkG3QyKweDx1zmjqMWOymw4~Gs54LBucFAm0pyOhr2LW0_RFSMj57uvTEadpFEtzCw74sqzCBAU7CKf30~j8mWh6XpJL3PT8fU609wfBlov5bTYf7YjrwESf1LghuW~kQ10UWJLGpjyTnigcWZeLoQYz6j8ezAZzlGcPNNB2MSaq8b5Gvm0U_mNnpksDVgC6rIiNTtAUztSw--&gsid=1b6b7d3d-e047-4985-94e9-efec574101ef&pno=1000&arange=0",
+        "name": "超清",
+        "fileformat": "HLS-TS",
+        "vip": "0",
+        "fileStartTime": "1.48"
+      },
+      {
+        "standardName": "蓝光",
+        "def": "4",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 2,
+        "scale": "16:9",
+        "barName": "蓝光",
+        "filebitrate": "2764",
+        "audioFormat": "AAC",
+        "url": "",
+        "name": "蓝光",
+        "fileformat": "HLS-TS",
+        "vip": "1",
+        "fileStartTime": "1.48"
+      }
+    ],
+    "stream_mpd": null,
+    "tk2": "-IzNzAjM2IDO3ETPsFmd",
+    "stream_domain": [
+      "http://web-disp.titan.mgtv.com",
+      "http://web-disp1.titan.mgtv.com",
+      "http://web-disp2.titan.mgtv.com"
+    ],
+    "abrStream": [],
+    "abrConfig": {
+      "checkInterval": 60,
+      "selectAbr": false,
+      "fts": "1400",
+      "swithLimit": {
+        "up": 2,
+        "down": 2
+      },
+      "enableAbr": false,
+      "maxIdleQuality": -999,
+      "minCheckInterval": 30,
+      "minIdleQuality": 1,
+      "algorithm": 0
+    }
+  },
+  "code": 200,
+  "msg": "",
+  "seqid": "e8dd6f68cd8644499165e944358ed32f",
+  "timestamp": 1782616914847
+}
+
+--------------------------------------------------------------------------------
+
+(async () => {
+  const video_id = '24461714' // extracted from URL
+  const tk2 = encode_tk2()
+  const lang = '10'
+
+  const api_data = await fetch(`https://pcweb.api.mgtv.com/player/video?video_id=${video_id}&tk2=${tk2}`).then(res => res.json())
+  const stream_data = await fetch(`https://pcweb.api.mgtv.com/player/getSource?video_id=${video_id}&tk2=${tk2}&pm2=${api_data['data']['atc']['pm2']}&abroad=${lang}`).then(res => res.json())
+
+  console.log(JSON.stringify(stream_data, null, 2))
+})()
+
+output:
+=======
+{
+  "data": {
+    "sourceTicket": "",
+    "bulletCommentMask": "",
+    "stream": [
+      {
+        "standardName": "480P",
+        "def": "1",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 1,
+        "scale": "16:9",
+        "barName": "480P",
+        "filebitrate": "663",
+        "audioFormat": "AAC",
+        "url": "/atcl?pm2=j29ZLTcciWRTdjO_e291l5PTrOwFJao1EeJetpdBDO~7G48hW9bkSvIB0Kxjl9Fty2SQkLXSfE_yi9YQCD9UF0YINYJqUqkjBB12GKhP9wmqxDJig3LvkIik~61nKbgeOX3t7HslgxN3F27HTmwui4Mg6EQcpHR6ytAgFwiifBfgwxDeCB2T~TKQWKJm4OvapWr2y4vCA7Y7Q5hMHtlnEdKVj0HfWZ~x2peQY7pU1soBcvEPHcHo3Zh000gr_TPhXDsyS8lzFDfSoLgdjhFU5BCDVP0zJLT3cT3xIu6w89dvr4rWQ~hgte84JOHgOc4Xtm_YpEoftVyztjSudzrgfZsb3WZDXewU~LL2NTB_bnwkC2D6KZFWzST0hMWLFblZws4kvNyu0jn_PmI5K84bIF4P0EkZfMDeK~Wt0C~tzyT8nqkynlKmG2op~zij_nzRNhNUCvyQnLGHEj45D8x4TQgE8nanBMiwJfcCOrwh~Uyoqu09fkcWZmncslaAIebAoo53Tnmtt506xb4P0hmhnPgC6XtTwb8Y5NZSOda5er0BNEUmKkgmyg--&gsid=52b33dac-6269-4acd-a0c4-4a76549502c3&pno=1000&arange=0",
+        "name": "480P",
+        "fileformat": "HLS-TS",
+        "vip": "0",
+        "fileStartTime": "1.48"
+      },
+      {
+        "standardName": "576P",
+        "def": "2",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 1,
+        "scale": "16:9",
+        "barName": "576P",
+        "filebitrate": "903",
+        "audioFormat": "AAC",
+        "url": "/atcl?pm2=2TCQD82Z3W9n6jGm6ToQ2J8e~RxT5BSNr2~OCKDhulXyZOqCLhOIkCu33Yj1KYEnKABaDHQLlcMEdsX21LbKwraV~DFBDPgDwv47S0iTfdXH32Q3krpZ3ffvN~o7kz8jOZwE1bcucmw80UeDJjBF12NmDaEGMojpgUBC39MH2iCy94QA8zTaCK25sg2DT81in8APMO36LKxcTRPahx3srjTKb~oMzTPbSd_xf1Q7K0GlVjC2iVBrzZtoytjVmP2iKHZZhD63Mh~CrdsHhWbM4tzcV9IKwHOlURUsRZt9hO3H7bDrkZzxP2au_8Uim1LUi_s~Vun8zW~DhKf5bqx9ftxGm7cIEOc4nGJfmZ0VbKsfR5UXle9ZqURNKwXOhhGrv~uMSP6NJDsZqmdSSBDST4nSorWMccdJld35rea8ESXQyArg8kGCfCc2nFXLez6nk9laSKZyvuabjnuTv6ai5Oxfgm~cYN2RGssBNossRn_UczxZ1YVwet5X3G5Y0zvl42DF16RsBXZL8nnXQEDXA4tRKVQVc_GiDjDhpUzCCKxnQ6oYgE549A--&gsid=bcaec001-25da-4f2c-bfdf-d9bada47e5f5&pno=1000&arange=0",
+        "name": "576P",
+        "fileformat": "HLS-TS",
+        "vip": "0",
+        "fileStartTime": "1.48"
+      },
+      {
+        "standardName": "720P",
+        "def": "3",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 2,
+        "scale": "16:9",
+        "barName": "720P",
+        "filebitrate": "1352",
+        "audioFormat": "AAC",
+        "url": "/atcl?pm2=qSyZm0SvxfwxBWuz1Ns6K2Rl8ZYx7wJDyZsC_3zn3VzzQ2A4zpHMePAiUuR1o3gJKrNik12VbYBkKHeKBXchtAxEFr0eAGaxMVhpoysW5q1QZ9c7sHgWQjYW190TlgCIRoIFGzPJiPR1vFgaZ7iXJj2MLruQN3_Iz1e5ieJmQvDgDn4jCHPq3jKjIoYxZkpV6qEcTR4JA56XpapWW6X0lzufO0lLy3XdYezdQK2ho1nCp_ByXJo~rTOm6~fZWF25WRbdIPuQGqRQfoPaP9JPqRhCS9_TlBUrZZzfsoDpi1Sg4e_ddGXMR_OyOGOXwXP~viUaHxBEhFH9V4GeJMJPtLPElyxyYZFC~aCe2WctF_VNagfINATo9hCxry4q73bLSg3Bmr4t2v1JNl0kjQvB1UlI99CTXULt5bUjHvjfUwB7avtF8L9iql6df95TxMi_uoBzVNOc69tIbhAWZsMD4KL6PvVF5r1elwqFhICHWO4AwuA4vXXeNXuGfNgCYBW1J7QN9IzbEP489CD8QzNqLLNfJfQqpq2gJ_C2jo8NrfvHffHzKTu6Gg--&gsid=8b709a14-927e-4a8a-bf23-7204d3ed6239&pno=1000&arange=0",
+        "name": "720P",
+        "fileformat": "HLS-TS",
+        "vip": "0",
+        "fileStartTime": "1.48"
+      },
+      {
+        "standardName": "1080P SDR",
+        "def": "4",
+        "videoFormat": "H264",
+        "audioTrack": 2,
+        "defLevel": 2,
+        "scale": "16:9",
+        "barName": "1080P SDR",
+        "filebitrate": "2764",
+        "audioFormat": "AAC",
+        "url": "",
+        "name": "1080P SDR",
+        "fileformat": "HLS-TS",
+        "vip": "1",
+        "fileStartTime": "1.48"
+      }
+    ],
+    "stream_mpd": null,
+    "tk2": "-MDO5czM2IDO3ETPsFmd",
+    "stream_domain": [
+      "http://web-disp.titan.mgtv.com",
+      "http://web-disp1.titan.mgtv.com",
+      "http://web-disp2.titan.mgtv.com"
+    ],
+    "abrStream": [],
+    "abrConfig": {
+      "checkInterval": 60,
+      "selectAbr": false,
+      "fts": "1400",
+      "swithLimit": {
+        "up": 2,
+        "down": 2
+      },
+      "enableAbr": false,
+      "maxIdleQuality": -999,
+      "minCheckInterval": 30,
+      "minIdleQuality": 1,
+      "algorithm": 0
+    }
+  },
+  "code": 200,
+  "msg": "",
+  "seqid": "fe48ede59e4d48c5a4241e1091f1adb3",
+  "timestamp": 1782634525252
+}
+
+--------------------------------------------------------------------------------
+
+(async () => {
+  const video_id = '24461714' // extracted from URL
+  const tk2 = encode_tk2()
+  const lang = '10'
+
+  const api_data = await fetch(`https://pcweb.api.mgtv.com/player/video?video_id=${video_id}&tk2=${tk2}`).then(res => res.json())
+  const stream_data = await fetch(`https://pcweb.api.mgtv.com/player/getSource?video_id=${video_id}&tk2=${tk2}&pm2=${api_data['data']['atc']['pm2']}&abroad=${lang}`).then(res => res.json())
+  let streams = stream_data['data']['stream']
+
+  if (!streams || !Array.isArray(streams) || !streams.length) {
+    console.log('No streams found!')
+    return
+  }
+
+  streams = streams.filter(s => !!s.url)
+
+  // sort by bitrate, descending
+  streams.sort((a, b) => {
+    const abr = Number(a.filebitrate)
+    const bbr = Number(b.filebitrate)
+    return (bbr - abr)
+  })
+
+  const video_data = await fetch(`${(streams[0].url[0] === '/') ? 'https://disp-glb.titan.mgtv.com' : ''}${streams[0].url}`).then(res => res.json())
+  const video_url = video_data.info
+
+  console.log(JSON.stringify(video_data, null, 2))
+
+  console.log('bitrate:', streams[0].filebitrate)
+  console.log('video url:', video_url)
+})()
+
+output:
+=======
+{
+  "ver": "4.8.4",
+  "info": "https://pcvideotx-hw.titan.mgtv.com/c1/2026/06/25_0/7A6D8E6B0D2B1B3EE8D308F1A1FB0FA4_20260625_1_1_1334_mp4/7FCA7B1CC9A1039E97A0C66E0DD2AF2C.m3u8?arange=0&pm=8H01thSrKWvxLisj2KvGAsYu6Wna0cZofKQOtqDuXZycf7gsdKUvAsAShtV315kZ~PpWfh_xmMC4~lerRw8frsZp5y29p4rX8cMpY7ns2l9pltwI7Tqqlbclf6V_8n8aQcEz8QlQ5d9unSyjEBVxImePhQb29cUskmACEKbLB0yLFJyJlZ6tjWH9OXwj7_XwnV4V3ZJlCwNMwBwBUkNpwCDTzKXtvrBE9nhJvGhb1UxvBGkSfWKT~I738aq0p56W48VZ2meqy9bBUPuB0OLzSvTRYRkWPbuBCq9EC5gYgeVA_0CLDFO8A4w0AjgiNbNPSqlSH4KRWO1k6liMs5LUw5jIfFoy8tYFj0cwAP5w5YKW_hg78BQgUmr3m61cHq8_0QvXby2K7cGsDtgOXqWdCArPI5RjbQLnMGDugCermwOIwIX91_XhCDphDTE-&mr=hobeKX6Z_15wRTxUfqL7svUIiTKxS0TdJnB0l06YCYZEZyhpcCuDljwQUPJ5fltcfTUVyuT6UQ3R4S9Hpx_QdNylGY5geeAK9zbNnfUchohpBFUib9IZAjDx0kGFvh~DCrMeyv3GJjguuvBVVbKH2h44KohMs40E6ceqNQOywQ7B9Ac5xaQsjFFd3RjFYYkYwhQ5dRe3G_JfZBfaurBWYqP9XRyrgBt~8r998jifnsh3DEtOINb35z2xlucVic_GpJuF9ra0R1DNPKmYnOg8VhS~V~_N67w_VSFlKyMinFA86pv0MDfTm3z~MxnPOZV9Ei4qxGeGtb~OrSEop7nyCaHx7agyauPJVw6VNg--&uid=null&term=4&def=3&scid=25146&cpno=6u02kk&ruid=9b96d55a910048c9&sh=1",
+  "t": 1782618326,
+  "ext": "0",
+  "isothercdn": 1,
+  "loc": "10355",
+  "status": "ok",
+  "idc": "txhw_cdn"
+}
+bitrate: 1352
+video url: https://pcvideotx-hw.titan.mgtv.com/c1/2026/06/25_0/7A6D8E6B0D2B1B3EE8D308F1A1FB0FA4_20260625_1_1_1334_mp4/7FCA7B1CC9A1039E97A0C66E0DD2AF2C.m3u8?arange=0&pm=8H01thSrKWvxLisj2KvGAsYu6Wna0cZofKQOtqDuXZycf7gsdKUvAsAShtV315kZ~PpWfh_xmMC4~lerRw8frsZp5y29p4rX8cMpY7ns2l9pltwI7Tqqlbclf6V_8n8aQcEz8QlQ5d9unSyjEBVxImePhQb29cUskmACEKbLB0yLFJyJlZ6tjWH9OXwj7_XwnV4V3ZJlCwNMwBwBUkNpwCDTzKXtvrBE9nhJvGhb1UxvBGkSfWKT~I738aq0p56W48VZ2meqy9bBUPuB0OLzSvTRYRkWPbuBCq9EC5gYgeVA_0CLDFO8A4w0AjgiNbNPSqlSH4KRWO1k6liMs5LUw5jIfFoy8tYFj0cwAP5w5YKW_hg78BQgUmr3m61cHq8_0QvXby2K7cGsDtgOXqWdCArPI5RjbQLnMGDugCermwOIwIX91_XhCDphDTE-&mr=hobeKX6Z_15wRTxUfqL7svUIiTKxS0TdJnB0l06YCYZEZyhpcCuDljwQUPJ5fltcfTUVyuT6UQ3R4S9Hpx_QdNylGY5geeAK9zbNnfUchohpBFUib9IZAjDx0kGFvh~DCrMeyv3GJjguuvBVVbKH2h44KohMs40E6ceqNQOywQ7B9Ac5xaQsjFFd3RjFYYkYwhQ5dRe3G_JfZBfaurBWYqP9XRyrgBt~8r998jifnsh3DEtOINb35z2xlucVic_GpJuF9ra0R1DNPKmYnOg8VhS~V~_N67w_VSFlKyMinFA86pv0MDfTm3z~MxnPOZV9Ei4qxGeGtb~OrSEop7nyCaHx7agyauPJVw6VNg--&uid=null&term=4&def=3&scid=25146&cpno=6u02kk&ruid=9b96d55a910048c9&sh=1
+
+--------------------------------------------------------------------------------
