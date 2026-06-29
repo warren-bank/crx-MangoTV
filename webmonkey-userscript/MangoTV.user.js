@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.3
+// @version      1.0.4
 // @include      /^https?:\/\/(?:w(?:ww)?\.)?mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
 // @grant        unsafeWindow
+// @grant        GM_setUserAgent
 // @grant        GM_startIntent
 // @homepage     https://github.com/warren-bank/crx-MangoTV/tree/webmonkey-userscript/es5
 // @supportURL   https://github.com/warren-bank/crx-MangoTV/issues
@@ -930,5 +931,8 @@ var init = function() {
 
 if (user_options.developer.debug)
   debugger;
+
+if (typeof GM_setUserAgent === 'function')
+  GM_setUserAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0");
 
 init()
