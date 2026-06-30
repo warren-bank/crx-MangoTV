@@ -18,140 +18,146 @@ https://pcweb.api.mgtv.com/video/title?videoId=24257538&_support=10000000&allowe
     "title": [{
       "captionCountrySimpleName": "CN",
       "captionSimpleName": "ZH_HK",
-      "name": "????",
+      "name": "繁體中文",
       "fileHash": "B9CCCDE83385406C3468159124EDA208",
       "language": 5,
-      "url": "/vod.do?pm=w9BDv5XnZ5VZqAmf1QUBeMdEhokLNdrkPPn8ywH3Ps6hsblk4_Z6RZ8eoRq0aJE0jXiE5QSANOzgt4IssSXz8wU4Zi6O2hQxuSx28HpnQlgs5r_PQOydQpB2sE2VY5Q2RTWU665CwcXtHA0btuuzmbcXYfN2_n2iBcCmbHg5CLwK8qcLltVgTCLczyhbsaUwhfVW5hKxPbJvhH4KznHoufuYyM7FDzeRnWCOZADfWws0M~N8PbsCa5fwB5DGyJp0QfaRyb1ZtZo6NXbLQsQac_GxGDnVC_jZIT8O0K6uwEyfU99KnnqfNGKrLxGaLrFqbJt7ciP9I15U2KTuByGkl6njJ08NT4XVvBPY~rVHx2E-&fid=C818BD0E50F6427DA900FF122BE948B4&gsid=a837a67eb93342cb99a8f5a0eb6ac682"
+      "url": "/vod.do?pm=w9BDv5XnZ5VZqAmf1QUBeMdEhokLNdrkPPn8ywH3Ps6hsblk4_Z6RZ8eoRq0aJE0jXiE5QSANOzgt4IssSXz8wU4Zi6O2hQxuSx28HpnQlgs5r_PQOydQpB2sE2VY5Q2RTWU665CwcXtHA0btuuzmbcXYfN2_n2iBcCmbHg5CLwK8qcLltVgTCLczyhbsaUwhfVW5hKxPbJvhH4KznHoufuYyM7FDzeRnWCOZADfWws0M~N8PbsCa5fwB5DGyJp0QfaRyb1ZtZo6NXbLQsQac_GxGDnVC_jZIT8O0K6uwEyfU99KnnqfNGKrLxGaLrFqbJt7ciP9I15U2KTuByGkl6njJ08NT4XVvBPY~rVHx2E-&fid=C818BD0E50F6427DA900FF122BE948B4&gsid=8bd301e1f3084d15b6030ab65aa38b3b"
     }, {
       "captionCountrySimpleName": "KR",
       "captionSimpleName": "KO",
-      "name": "???",
+      "name": "한국어",
       "fileHash": "BA9BF605EE0D7D2C6AD04358D7083B05",
       "language": 8,
-      "url": "/vod.do?pm=OpVqBLvPDl5MTCt9ZoUtnHfZbEJXOFv7239r2QlAv8iCxUiBnhpiEQop4FeteWU9w_5NL9HtCO4~r~5UuSZ5MIpduUCq1G5ePyyn~dTqs8xq5vQw4KGCBGpn3SkIgoBEoTheMzcqf9vu6Ga5xrJYQGuFcDPJkByS9QkdJHOlmZwLGerJBWPW7tq2kNB6CwYXq8GyEjVAi7x4p1aoRBzfThPYISyq5CllyS8keNqUOggVvxRoZUmH2eySnmOi4Sgdu69DwSPIxG90i0J0oPEI72CwOlUDJC0AAs_h_B~Dsa1uIzIDblcRRU1ASxnkbskCw88CSiuG2B~dS9v5s7CMAm53KLA1vBi_5jEsT8D9kxo-&fid=CB4F86E38D7E7F3DF7B8A9DBD80CD1B9&gsid=acde45a22a0943ab8742925bd22d9451"
+      "url": "/vod.do?pm=OpVqBLvPDl5MTCt9ZoUtnHfZbEJXOFv7239r2QlAv8iCxUiBnhpiEQop4FeteWU9w_5NL9HtCO4~r~5UuSZ5MIpduUCq1G5ePyyn~dTqs8xq5vQw4KGCBGpn3SkIgoBEoTheMzcqf9vu6Ga5xrJYQGuFcDPJkByS9QkdJHOlmZwLGerJBWPW7tq2kNB6CwYXq8GyEjVAi7x4p1aoRBzfThPYISyq5CllyS8keNqUOggVvxRoZUmH2eySnmOi4Sgdu69DwSPIxG90i0J0oPEI72CwOlUDJC0AAs_h_B~Dsa1uIzIDblcRRU1ASxnkbskCw88CSiuG2B~dS9v5s7CMAm53KLA1vBi_5jEsT8D9kxo-&fid=CB4F86E38D7E7F3DF7B8A9DBD80CD1B9&gsid=ab456374c1c548c392d38ec4e070f847"
     }, {
       "captionCountrySimpleName": "MY",
       "captionSimpleName": "MS",
       "name": "Bahasa Malaysia",
       "fileHash": "022D2CE5A1FA8D26D35CDD550B245F88",
       "language": 9,
-      "url": "/vod.do?pm=9iqz_oGxGdUMdGXZ7AsqiWA~QsoFhuIFRpm7czxNoWxUePYIurXlklq7RlP3HF__K7aquB8is0yXcR9lMqh3V2IR_Rz_7~iq45RL~sY19g1XVbDwvBWhJXtuQ8OZ5HZAVpoGqFfOxi~yI4O5HBoeoTa7KsMvGBySCkINHGX52Jmhk0QM_MXxpaBSAxl5tw4imGE7eJgvK6A9vWSFxpoO5GS51E6N1xanWu3zBhRMb2e7OLCEyWmlUYePP83_ZxhQ1Um_2EZpiuXfi~ejDJ7xlbRPRB060tONn4HGJneTDfsdK_T1XblfEcL8P97_GD3FdsGB~g2RSnFWh5uehnzkYmip22uUbZVyrOI7c_Q7Tyg-&fid=73F95C03C2898F374E3437D60420B534&gsid=d2c01c0d18114e1382a5dbe4d85fb94c"
+      "url": "/vod.do?pm=9iqz_oGxGdUMdGXZ7AsqiWA~QsoFhuIFRpm7czxNoWxUePYIurXlklq7RlP3HF__K7aquB8is0yXcR9lMqh3V2IR_Rz_7~iq45RL~sY19g1XVbDwvBWhJXtuQ8OZ5HZAVpoGqFfOxi~yI4O5HBoeoTa7KsMvGBySCkINHGX52Jmhk0QM_MXxpaBSAxl5tw4imGE7eJgvK6A9vWSFxpoO5GS51E6N1xanWu3zBhRMb2e7OLCEyWmlUYePP83_ZxhQ1Um_2EZpiuXfi~ejDJ7xlbRPRB060tONn4HGJneTDfsdK_T1XblfEcL8P97_GD3FdsGB~g2RSnFWh5uehnzkYmip22uUbZVyrOI7c_Q7Tyg-&fid=73F95C03C2898F374E3437D60420B534&gsid=c08ace7636a04f218ff95845b848d513"
     }, {
       "captionCountrySimpleName": "US",
       "captionSimpleName": "EN",
       "name": "English",
       "fileHash": "0732596F1F478EA9A35A44B4D7E6142F",
       "language": 1,
-      "url": "/vod.do?pm=0E6bNBdqPYWWABnt65nR8O4y7hoqw8ayJerzAibePOs6Nq7ZNzGYTzgiIbLN4abAjKgC4moK_KOA7mlXaLmQ0rJpkTS4pKVV_71kDS5a~a2DEza~5p2bUYRA5kJHpQmTyGIloT6L2ovLwoIGUhwKFRpAOdWkGsy1JFNvGmQqFFpTQZCkVPli4as3dBL1alQ__1EMVhTMX7XyElbpJbqwJ16yLMjhrcyj0lmKyZZRdLZKSbP_Wg4MWYl~H__BvZoaY0GQFSVrGrmvKDOyduMvQE_T58Wovktyu_pqAXZ7iqRFHwhkHs9_vHgoyS_bS7au3_l7us9WbbR59PLvcG0HuVNEH2U9TScBpWrNftZQ6cc-&fid=76E629897C348CB83E32AE37D8E2FE93&gsid=80023be8647d4cd98f4c3b9f4e701dcb"
+      "url": "/vod.do?pm=0E6bNBdqPYWWABnt65nR8O4y7hoqw8ayJerzAibePOs6Nq7ZNzGYTzgiIbLN4abAjKgC4moK_KOA7mlXaLmQ0rJpkTS4pKVV_71kDS5a~a2DEza~5p2bUYRA5kJHpQmTyGIloT6L2ovLwoIGUhwKFRpAOdWkGsy1JFNvGmQqFFpTQZCkVPli4as3dBL1alQ__1EMVhTMX7XyElbpJbqwJ16yLMjhrcyj0lmKyZZRdLZKSbP_Wg4MWYl~H__BvZoaY0GQFSVrGrmvKDOyduMvQE_T58Wovktyu_pqAXZ7iqRFHwhkHs9_vHgoyS_bS7au3_l7us9WbbR59PLvcG0HuVNEH2U9TScBpWrNftZQ6cc-&fid=76E629897C348CB83E32AE37D8E2FE93&gsid=79b54f67b9834111b1bba91874ca7f8d"
     }, {
       "captionCountrySimpleName": "IT",
       "captionSimpleName": "IT",
       "name": "Italiano",
       "fileHash": "35C9D1FE2CDAF856F192C29EE52A39A7",
       "language": 13,
-      "url": "/vod.do?pm=swhG6UMWXAmhmIDEihDbPn1mlVHF2Ww1CmEuEycTe4JlZWzF9zgahEmibXYAnGpQ0Scr6BPuQWnesAhf54j48~k4VvVYHwRzK2KQt2ahN9M6ZqeL~_8VhX3HGZlva3J~HmtZbWkIUy_5W~UDmsXCsMrCg~dKsBavT3WoMfsuzC69ymHsC2rJCQ7rZd_srOmFjJ9QGFmswsuhCWjlCtldSIFGMcUTP71DQw5T98AwwlfpoNlVIzZa4yZqayPjN1jtjOwnN4r79kdCUewO_a~pj_W~PPsHKwCeK6K02sFD_OeCSSVWYo_iSo~MnOfGv0Vw1nBk~YQqTY1lg56AjXDTSlH1xHN3xfrzG92RrEAyPTo-&fid=441DA1184FA9FA476CFA281DEA2ED31B&gsid=d56790685e6744e89f90d973b0a91d51"
+      "url": "/vod.do?pm=swhG6UMWXAmhmIDEihDbPn1mlVHF2Ww1CmEuEycTe4JlZWzF9zgahEmibXYAnGpQ0Scr6BPuQWnesAhf54j48~k4VvVYHwRzK2KQt2ahN9M6ZqeL~_8VhX3HGZlva3J~HmtZbWkIUy_5W~UDmsXCsMrCg~dKsBavT3WoMfsuzC69ymHsC2rJCQ7rZd_srOmFjJ9QGFmswsuhCWjlCtldSIFGMcUTP71DQw5T98AwwlfpoNlVIzZa4yZqayPjN1jtjOwnN4r79kdCUewO_a~pj_W~PPsHKwCeK6K02sFD_OeCSSVWYo_iSo~MnOfGv0Vw1nBk~YQqTY1lg56AjXDTSlH1xHN3xfrzG92RrEAyPTo-&fid=441DA1184FA9FA476CFA281DEA2ED31B&gsid=6eca9830dbfc4ab5946be4984aa1dfe5"
     }, {
       "captionCountrySimpleName": "FR",
       "captionSimpleName": "FR",
-      "name": "Fran�ais",
+      "name": "Français",
       "fileHash": "F49BF5781533A91D5CAB8F461AEAC348",
       "language": 6,
-      "url": "/vod.do?pm=nvkRALyfPuzvZypsPjgBShX5ey26X09BT7K3lkUagYUXZSD~2RZqNxSbHAByHM~_bzYqyShupX5iZbyLCwoIsBLid76pSCRTTzMvj51tfdzWa95d0QMcTzfoT8dGpvtJf_3rJIa5EDY_LFeJRLbagrGWtjdS6LR~NOx7KygddGVcMm87bKO5bZLld6lVY2ixdN5ALgF3x~Ok20cEghF_fmcjDfwQ4IhOX6u5ZTnDSnR5nrFgkMj1U0UO3RYOtPE4qUk6xYBACs9w~j3SnYX~JlGLqpNe2mJARFGFOI~QJ2SRIIrluFCCJfbDKEVyVpLJElwKYE6ZRIg6ZMkC9ULdwfc998Sj0buv3uvkIe3emqk-&fid=854F859E7640AB0CC1C365C515EE29F4&gsid=8fbe73985ac9471bb09300dd9f2f69d7"
+      "url": "/vod.do?pm=nvkRALyfPuzvZypsPjgBShX5ey26X09BT7K3lkUagYUXZSD~2RZqNxSbHAByHM~_bzYqyShupX5iZbyLCwoIsBLid76pSCRTTzMvj51tfdzWa95d0QMcTzfoT8dGpvtJf_3rJIa5EDY_LFeJRLbagrGWtjdS6LR~NOx7KygddGVcMm87bKO5bZLld6lVY2ixdN5ALgF3x~Ok20cEghF_fmcjDfwQ4IhOX6u5ZTnDSnR5nrFgkMj1U0UO3RYOtPE4qUk6xYBACs9w~j3SnYX~JlGLqpNe2mJARFGFOI~QJ2SRIIrluFCCJfbDKEVyVpLJElwKYE6ZRIg6ZMkC9ULdwfc998Sj0buv3uvkIe3emqk-&fid=854F859E7640AB0CC1C365C515EE29F4&gsid=03cf0a834476478488f00a7511c2de97"
     }, {
       "captionCountrySimpleName": "DE",
       "captionSimpleName": "DE",
       "name": "Deutsch",
       "fileHash": "A6D9318F40734FC2704307078E5E415A",
       "language": 14,
-      "url": "/vod.do?pm=gGkYntNzNpell5M8rK0nAEdYVm4nqhj1rrmCWn3TDYRZs~evJ9y92300mvDKvJRbSA6fo0eDrfpzmWuYD_eQ5H0E7cVx4uze3eC~fj12fMzYoMiJSJmTZNgSHEa_IcWwhlb87OhZ_kLVcrqmavfnwA9ctD~wJMab_kCPSD0IoM659ghkhu7PRq~sdApl5hbianQ5OzdBVkHHhxXgQnJWDLSIrgefoyvNh2oU6u4fxdBN~_8iimBByjxPlzZKn1KF272_OJVbCaAwJXEhKD3Rm~QT_gik5vGvE6GsmMPjnAZLJARLEMxsV2FMctrWKxKYCBrB77D3h4__sfZINLW4IILT8rfFHRx1XwwqbxhMxLQ-&fid=D70D416923004DD3ED2BED84815AABE6&gsid=6344871e8c5b4e34aa9aca2442d1d6ac"
+      "url": "/vod.do?pm=gGkYntNzNpell5M8rK0nAEdYVm4nqhj1rrmCWn3TDYRZs~evJ9y92300mvDKvJRbSA6fo0eDrfpzmWuYD_eQ5H0E7cVx4uze3eC~fj12fMzYoMiJSJmTZNgSHEa_IcWwhlb87OhZ_kLVcrqmavfnwA9ctD~wJMab_kCPSD0IoM659ghkhu7PRq~sdApl5hbianQ5OzdBVkHHhxXgQnJWDLSIrgefoyvNh2oU6u4fxdBN~_8iimBByjxPlzZKn1KF272_OJVbCaAwJXEhKD3Rm~QT_gik5vGvE6GsmMPjnAZLJARLEMxsV2FMctrWKxKYCBrB77D3h4__sfZINLW4IILT8rfFHRx1XwwqbxhMxLQ-&fid=D70D416923004DD3ED2BED84815AABE6&gsid=e67ded06c42d4c0a9dc0e650471d2a63"
     }, {
       "captionCountrySimpleName": "ES",
       "captionSimpleName": "ES",
-      "name": "Espa�ol",
+      "name": "Español",
       "fileHash": "D6B5E063B60C784A933EBB747E409C6C",
       "language": 10,
-      "url": "/vod.do?pm=_36bquZ0Sabwl488diQArVa1G3dLNEvGgVgUEEnz2ApYb66W2P0eTbTWGVTOFBiP6Oeq5~Ke8z7Tgg9HhCe~H47NrimxNXhnqDvDgVQSO1E1A009APMklJGw49xXYj73gRSfDI837jYU~SYRIvo4wEscUNiOel3aW1wKrrvfsgGSDA1_G2udEBxfuRpu5W2b1cmefRAHUdqaMrAUi7Igs1qW~dQZlq2XcBv1L2UZTbQaAO9YmM6Q2jHRhGqnvMgkXlJEMPkJAFSwq1YVBUKHFOo1czNqhz4LBXIDVivOJqAucUc2JJ~7yvJXcxKCkirIO2sD8Zf5xwInfKUdRgYjn1QSthY4_0vUlsdIWTgJ2b4-&fid=A7619085D57F7A5B0E5651F7714476D0&gsid=c85b2bfe47ea414b8b421d6a5ddda3d3"
+      "url": "/vod.do?pm=_36bquZ0Sabwl488diQArVa1G3dLNEvGgVgUEEnz2ApYb66W2P0eTbTWGVTOFBiP6Oeq5~Ke8z7Tgg9HhCe~H47NrimxNXhnqDvDgVQSO1E1A009APMklJGw49xXYj73gRSfDI837jYU~SYRIvo4wEscUNiOel3aW1wKrrvfsgGSDA1_G2udEBxfuRpu5W2b1cmefRAHUdqaMrAUi7Igs1qW~dQZlq2XcBv1L2UZTbQaAO9YmM6Q2jHRhGqnvMgkXlJEMPkJAFSwq1YVBUKHFOo1czNqhz4LBXIDVivOJqAucUc2JJ~7yvJXcxKCkirIO2sD8Zf5xwInfKUdRgYjn1QSthY4_0vUlsdIWTgJ2b4-&fid=A7619085D57F7A5B0E5651F7714476D0&gsid=f6c4d3173e654331b29b523b9c0367a5"
     }, {
       "captionCountrySimpleName": "ID",
       "captionSimpleName": "ID",
       "name": "Bahasa Indonesia",
       "fileHash": "AD148B0A05353D7EA216FEBB652F74A5",
       "language": 17,
-      "url": "/vod.do?pm=QCgbq4wrt9_V4hS7eEF4jPyfn6CwG0_PeqKDess_AK~ya~sEBHpUfjdiCl9ywRL7ng2wUj5Cb3i5dlgfizM7e1T9bRXuJ70VFxuVtG7Y_~NoQ5VwMAvMsBGvW6FaT~DOWh6lWpmpW_ZiNmIcKHr9synUeONMoTD52CsqzG~356JxNFqIfFMsSgkjLeHJs0oUYp3WP~4vuWRJyVkPS1KDLxL46jrj_y3jTSuOBHgEPAtoRKK6YRzBREROiBYDLAXpSjYdnPpFaszuirLA1CuZtQI17Wr_cDWxgOiGQg3gIs98mbSx3RaNzWTeA0_Hsh9iVChatFi0jpMZotX6JrPtGoy_XcR9SdBQWCTA1PxRVsA-&fid=DCC0FBEC66463F6F3F7E14386A2B9E19&gsid=5148213cce4f4de6b794ab3e8af42846"
+      "url": "/vod.do?pm=QCgbq4wrt9_V4hS7eEF4jPyfn6CwG0_PeqKDess_AK~ya~sEBHpUfjdiCl9ywRL7ng2wUj5Cb3i5dlgfizM7e1T9bRXuJ70VFxuVtG7Y_~NoQ5VwMAvMsBGvW6FaT~DOWh6lWpmpW_ZiNmIcKHr9synUeONMoTD52CsqzG~356JxNFqIfFMsSgkjLeHJs0oUYp3WP~4vuWRJyVkPS1KDLxL46jrj_y3jTSuOBHgEPAtoRKK6YRzBREROiBYDLAXpSjYdnPpFaszuirLA1CuZtQI17Wr_cDWxgOiGQg3gIs98mbSx3RaNzWTeA0_Hsh9iVChatFi0jpMZotX6JrPtGoy_XcR9SdBQWCTA1PxRVsA-&fid=DCC0FBEC66463F6F3F7E14386A2B9E19&gsid=d832695f377b49f79bb4ce7a20b6b00d"
     }, {
       "captionCountrySimpleName": "PH",
       "captionSimpleName": "FIL",
       "name": "Filipino",
       "fileHash": "3FABFED903D35FD4E8602BB9B56176E1",
       "language": 12,
-      "url": "/vod.do?pm=AD8HqLJ0P2QjwLkhzAR8xU~vyJlvuOZZ48Nc9rsJbuQQaxpZCCGELWwUYMv0SqmcJfWX7DTplubUuT8IULmFaq5CEHl2pmTsGgAddnjR~sMS~nWuFohqlmfkHZRn_MsasDuf063Ktzpq2gvIu9BlHfNh~ieNwrzmExf2eins1ksCv4nVVJEPKjU7Ii5Ly23d87ALmlrVhHY~ct1twyNfp7h5sj8pN0Apj~2Svr5oC~b5jH0Tzv~PnFSCErUB3fqjZis4wyYOfKz2arElNy618IaKqNOqcQftUPTbITMBaJuQCeqNvWyUItHUjuLwmlSZZvvi8flYhewH24QDINCJjfOkVB21fnnOOIXNXzG4LHk-&fid=4E7F8E3F60A05DC57508C13ABA659C5D&gsid=9feceaaf7c524fa88faf39adad0399ef"
+      "url": "/vod.do?pm=AD8HqLJ0P2QjwLkhzAR8xU~vyJlvuOZZ48Nc9rsJbuQQaxpZCCGELWwUYMv0SqmcJfWX7DTplubUuT8IULmFaq5CEHl2pmTsGgAddnjR~sMS~nWuFohqlmfkHZRn_MsasDuf063Ktzpq2gvIu9BlHfNh~ieNwrzmExf2eins1ksCv4nVVJEPKjU7Ii5Ly23d87ALmlrVhHY~ct1twyNfp7h5sj8pN0Apj~2Svr5oC~b5jH0Tzv~PnFSCErUB3fqjZis4wyYOfKz2arElNy618IaKqNOqcQftUPTbITMBaJuQCeqNvWyUItHUjuLwmlSZZvvi8flYhewH24QDINCJjfOkVB21fnnOOIXNXzG4LHk-&fid=4E7F8E3F60A05DC57508C13ABA659C5D&gsid=7a4db50612ba48a993db2fd39ed25731"
     }, {
       "captionCountrySimpleName": "RU",
       "captionSimpleName": "RU",
-      "name": "???????",
+      "name": "Русский",
       "fileHash": "DD2E115489EA9A1930CAA6249BB8007C",
       "language": 15,
-      "url": "/vod.do?pm=7IOmZ2Su68I4bNIYap6EIVJmVew~U9ZP3LvHFKQUourMWLDCR0TbQKf1EtXyWUYsCfLTsbulNqDVsDN5~cNlTFfepIx1VZFpeWYwW3PLJ~lHUfLe_~Q~JDdTtV0bv~FF0p0Zr90xscRTBXvtorP7hY_T6Cw4Shulssl3kDC5owtCZ9iwu9xayiH63qH8yFE8dYsOOn8kjSyzoH0IPz5REJhWj9lrpZQdUMzuC9T7p4SJSIxBG5g_9YbynsJf7yN_j_aJPRYlQuahdHYUYdxGN0a3~gYnsrmApWWEzLzi59a36IG2UR0R~EHdp_bC4v2SPyghx0ZSlfktyVg9x8hcB8h3Vj4u4OtzmNE38HVy0wY-&fid=ACFA61B2EA999808ADA24CA794BCEAC0&gsid=0953644202af4c8383daa64f0391c9ef"
+      "url": "/vod.do?pm=7IOmZ2Su68I4bNIYap6EIVJmVew~U9ZP3LvHFKQUourMWLDCR0TbQKf1EtXyWUYsCfLTsbulNqDVsDN5~cNlTFfepIx1VZFpeWYwW3PLJ~lHUfLe_~Q~JDdTtV0bv~FF0p0Zr90xscRTBXvtorP7hY_T6Cw4Shulssl3kDC5owtCZ9iwu9xayiH63qH8yFE8dYsOOn8kjSyzoH0IPz5REJhWj9lrpZQdUMzuC9T7p4SJSIxBG5g_9YbynsJf7yN_j_aJPRYlQuahdHYUYdxGN0a3~gYnsrmApWWEzLzi59a36IG2UR0R~EHdp_bC4v2SPyghx0ZSlfktyVg9x8hcB8h3Vj4u4OtzmNE38HVy0wY-&fid=ACFA61B2EA999808ADA24CA794BCEAC0&gsid=e48365a5940d47f59c159c9af722a252"
     }, {
       "captionCountrySimpleName": "TH",
       "captionSimpleName": "TH",
-      "name": "???????",
+      "name": "ภาษาไทย",
       "fileHash": "3EAF4B4E2522C37472D393FAED5F58C1",
       "language": 3,
-      "url": "/vod.do?pm=2eJKpLlfEoqsaHoCAaLKLTumo8c8DO1dhq7XU8OhHrr2vsHcytKmTd2jV2uU8bNRDCzOtqJ3feBljdZZDsgP7Dv1G3y4RN7CdGhWeUwOtfb6oIsqSPmkEvs4VzWfBMvHS35tvptlzSlleYnB1OpNx~BYq_QUEwgsFeWOatO9IAThpyUfuRcLuYqL2rAcEyihYgaly0HlMcpE5lTmgJAPY2oikTwEIoooN5~Tj~hYTFiA7zG0MKR9YZER5Gi8eJjHnZilqINQIDD2ainA58PBfGdC6~z1lsP7P7bcm1pbu3SArGP03gcAzAOS2ob8y~7neanrnQgALjz3YS~5ZKlR2vWBhuuXN4JzJ1qswjuTfpY-&fid=4F7B3BA84651C165EFBB7979E25BB27D&gsid=701919974721488fb09ce29898ec432a"
+      "url": "/vod.do?pm=2eJKpLlfEoqsaHoCAaLKLTumo8c8DO1dhq7XU8OhHrr2vsHcytKmTd2jV2uU8bNRDCzOtqJ3feBljdZZDsgP7Dv1G3y4RN7CdGhWeUwOtfb6oIsqSPmkEvs4VzWfBMvHS35tvptlzSlleYnB1OpNx~BYq_QUEwgsFeWOatO9IAThpyUfuRcLuYqL2rAcEyihYgaly0HlMcpE5lTmgJAPY2oikTwEIoooN5~Tj~hYTFiA7zG0MKR9YZER5Gi8eJjHnZilqINQIDD2ainA58PBfGdC6~z1lsP7P7bcm1pbu3SArGP03gcAzAOS2ob8y~7neanrnQgALjz3YS~5ZKlR2vWBhuuXN4JzJ1qswjuTfpY-&fid=4F7B3BA84651C165EFBB7979E25BB27D&gsid=46f8fdab404440ffa6a23ae87bdb5823"
     }, {
       "captionCountrySimpleName": "AE",
       "captionSimpleName": "DR",
-      "name": "???????",
+      "name": "العربية",
       "fileHash": "D51A5885D84FAAE099DFB67097CA572D",
       "language": 16,
-      "url": "/vod.do?pm=RsgbFCHlr4DvXhMJy9lER2zsn~s1gsn6rEDhCR9lMqQNzV87ywiPGqWKCgxFR3znQcYfGlhX3Suu2ZxXCwBcAH9IDcSgi21kdDiIxcAqYvyr6IGVL~_icSAn55Sn7_heUkY5RMOgL4aNLnhxpn_BJJiGGJ4OnJWpAkjREJWSUMBD3EwrXoi0OaAGofyoBAHGKW5jTBtYQy~f9CV5_TEkLB1qcC10iwmc1MXnD8_~OaOkeZWPaeWgDfxrBOqTpZMJxJn5PGOgbKdLoPDgO138dcCImO_6kQeF0EwuAYkwtKVEBCORW~d9GFm1ZHdRGJERp4uZBYy6D3hDtQC9ltrSW9r8oy9l5wQPtSH5zbs69A4-&fid=A4CE2863BB3CA8F104B75CF398CEBD91&gsid=5ab98816e225437ab995b9f1b0e92532"
+      "url": "/vod.do?pm=RsgbFCHlr4DvXhMJy9lER2zsn~s1gsn6rEDhCR9lMqQNzV87ywiPGqWKCgxFR3znQcYfGlhX3Suu2ZxXCwBcAH9IDcSgi21kdDiIxcAqYvyr6IGVL~_icSAn55Sn7_heUkY5RMOgL4aNLnhxpn_BJJiGGJ4OnJWpAkjREJWSUMBD3EwrXoi0OaAGofyoBAHGKW5jTBtYQy~f9CV5_TEkLB1qcC10iwmc1MXnD8_~OaOkeZWPaeWgDfxrBOqTpZMJxJn5PGOgbKdLoPDgO138dcCImO_6kQeF0EwuAYkwtKVEBCORW~d9GFm1ZHdRGJERp4uZBYy6D3hDtQC9ltrSW9r8oy9l5wQPtSH5zbs69A4-&fid=A4CE2863BB3CA8F104B75CF398CEBD91&gsid=e70d8f7a54b14372991f30d46f8ad511"
     }, {
       "captionCountrySimpleName": "PT",
       "captionSimpleName": "PT",
-      "name": "Portugu�s",
+      "name": "Português",
       "fileHash": "932E64A743B63E2E8C2FB69EB65B1822",
       "language": 11,
-      "url": "/vod.do?pm=~uYFosmqghL59ku4rY3jpZSVWWLwfMUIRYCeCxmKa7OZStFsPkmQDgOPt02YsQS8Dt_W4XyzL7RhV5iYvTumS_WFaulfZjFvgNdLKn6hA1TWUYgOIqvMOxITxmH9RVT7nOHqzyUyJpL2hGN0_s4U1YpHlUw9YycTb99Kg~DnWSlNH7GERf2fyWvUq9xUBTwN7iZ_GvZefMrLAKHAcj0U5azlmmGfN5sinCF1ke1RIFqBD02mGXulmC4JOa~UuAp5QBNJlGr5WNkd3dYlDMr326wcN2FAV_YUUfyecFxihUIYTpp9xFJzg3OiERqap2kX6070J_duYsqEatGvJu64u_Pq~tPSMQ6kEvaLs6wfLFY-&fid=E2FA144120C53C3F11475C1DB95FF29E&gsid=2542ad02f41e4875b196006e95ef5faf"
+      "url": "/vod.do?pm=~uYFosmqghL59ku4rY3jpZSVWWLwfMUIRYCeCxmKa7OZStFsPkmQDgOPt02YsQS8Dt_W4XyzL7RhV5iYvTumS_WFaulfZjFvgNdLKn6hA1TWUYgOIqvMOxITxmH9RVT7nOHqzyUyJpL2hGN0_s4U1YpHlUw9YycTb99Kg~DnWSlNH7GERf2fyWvUq9xUBTwN7iZ_GvZefMrLAKHAcj0U5azlmmGfN5sinCF1ke1RIFqBD02mGXulmC4JOa~UuAp5QBNJlGr5WNkd3dYlDMr326wcN2FAV_YUUfyecFxihUIYTpp9xFJzg3OiERqap2kX6070J_duYsqEatGvJu64u_Pq~tPSMQ6kEvaLs6wfLFY-&fid=E2FA144120C53C3F11475C1DB95FF29E&gsid=839e81a53c5642dabdb17f68f0f8f392"
     }, {
       "captionCountrySimpleName": "JP",
       "captionSimpleName": "JA",
-      "name": "???",
+      "name": "日本語",
       "fileHash": "89695F345F27A02F1420418BD106FD8F",
       "language": 7,
-      "url": "/vod.do?pm=~YXEvhV5Qev~yIdvaGcL7fI6t81xjjuuAzlF9LkCf24xB4nxRTohm~E7N85teSiE1qK7R0WZB_tTmEv7w3dz2lpDCbVqtPp7GlmNTHdBfM~q4uDFcM7QlBW4J1U5egH_jUS98Hhu09qLOMh~Y6m56gKhjeWCsrhbjaJ3xuCmg~niTxrn0gxHUfWXMkA0VyK87OH5BjWp_L19FuBK5qFJccX7whrUz4hEK5Nm_ed0UWBPHXO7zLquw5646JH3JlyzJ5RAfthJke_hsrTwnDCQqioJsm6zXjtRGRMUVU8Wkcp7GHD8BN2mrCOzGCSqmD3pHvrIpglXchdILakvMTUZX~PckCqdgJ39Eh9wY7VA9fg-&fid=F8BD2FD23C54A23E8948AB08DE021733&gsid=e821073b12c14c4a87178047661f0dc4"
+      "url": "/vod.do?pm=~YXEvhV5Qev~yIdvaGcL7fI6t81xjjuuAzlF9LkCf24xB4nxRTohm~E7N85teSiE1qK7R0WZB_tTmEv7w3dz2lpDCbVqtPp7GlmNTHdBfM~q4uDFcM7QlBW4J1U5egH_jUS98Hhu09qLOMh~Y6m56gKhjeWCsrhbjaJ3xuCmg~niTxrn0gxHUfWXMkA0VyK87OH5BjWp_L19FuBK5qFJccX7whrUz4hEK5Nm_ed0UWBPHXO7zLquw5646JH3JlyzJ5RAfthJke_hsrTwnDCQqioJsm6zXjtRGRMUVU8Wkcp7GHD8BN2mrCOzGCSqmD3pHvrIpglXchdILakvMTUZX~PckCqdgJ39Eh9wY7VA9fg-&fid=F8BD2FD23C54A23E8948AB08DE021733&gsid=9991f41546ab453bbeeda94032b93540"
     }, {
       "captionCountrySimpleName": "TZ",
       "captionSimpleName": "SW",
       "name": "Kiswahili",
       "fileHash": "CB0DBF3E0A197B4420F575F0BBA2D9BB",
       "language": 18,
-      "url": "/vod.do?pm=7P0v_CgkClVpcOxOHJ9UJhUSRYxyq_ttCGxCRGIDy5R9DwJFFhrffJs_nHwHXVwDo0Wtq5cGyp13KMcb3~aLwAwZauLop0D3UZWfHrdpA_ipSRbHrnoWN0p583AH2PBq71tQO1QmvVVN5oG~Tyg9BENMyY499MCOJqa0IVlBNhEl4~NBLQvYAe~C3pRTNQCOqzqgwD7C1HD_eFEX6994UVQfKvZCnLoooB86xYbCTl6BnKFmkI~PCPpPB7hD_s4cTvD_~oDp27PxeaaUKS2PqrOoW5BpzdfCV_M_ztFCckG3W4LqKBTXdWvytI3nlZw7Y3pChC~k7FbYD5fLQYeDTdjD4wM1nilieR_G5frw29Q-&fid=BAD9CFD8696A7955BD9D9F73B4A63307&gsid=0871cf72de0d4a94a8b159f01b77e8be"
+      "url": "/vod.do?pm=7P0v_CgkClVpcOxOHJ9UJhUSRYxyq_ttCGxCRGIDy5R9DwJFFhrffJs_nHwHXVwDo0Wtq5cGyp13KMcb3~aLwAwZauLop0D3UZWfHrdpA_ipSRbHrnoWN0p583AH2PBq71tQO1QmvVVN5oG~Tyg9BENMyY499MCOJqa0IVlBNhEl4~NBLQvYAe~C3pRTNQCOqzqgwD7C1HD_eFEX6994UVQfKvZCnLoooB86xYbCTl6BnKFmkI~PCPpPB7hD_s4cTvD_~oDp27PxeaaUKS2PqrOoW5BpzdfCV_M_ztFCckG3W4LqKBTXdWvytI3nlZw7Y3pChC~k7FbYD5fLQYeDTdjD4wM1nilieR_G5frw29Q-&fid=BAD9CFD8696A7955BD9D9F73B4A63307&gsid=d716e2645a834f43a2d9a27ebc8ab49e"
     }, {
       "captionCountrySimpleName": "VN",
       "captionSimpleName": "VI",
-      "name": "Ti?ng Vi?t",
+      "name": "Tiếng Việt",
       "fileHash": "915A3132ABB849AF22AA213FE620CFF9",
       "language": 2,
-      "url": "/vod.do?pm=VTpYTMKl~MTfB5Xz0oTtamLluaut1MVPBH0Od2YWCuAg2De25w1Qa99TLhFZBtpWtzlFrZwbqWzUtRkRMz53haRzUwxnr~rzHF3FAIqEaWo0hEspeXt9b8m_Lfu2eYyKe9ALiQy3w8aJti5bcAcyPX2tUXC4LeEeWunf~Y7MFwvshY_KAZIC8pS~D8hpOoQKfnCjTUgLohjhzl_XVJF2QO_Y0HrwfEiP95Hi8c~xCnoAshZ2mangWi9kwLVa0aHNCso1JeT5Bc7oRyWwHUhfvE0UxAlZ_r1mq06WiSl4X~qppchwnm7U3S6Cj6pKaFW51w572Tq~xQU9ZnUepvvf1xzsXhlbGPR_HyURDa5hOAg-&fid=E08E41D4C8CB4BBEBFC2CBBCE9242545&gsid=c028131098a04578b75d0433af551c3c"
+      "url": "/vod.do?pm=VTpYTMKl~MTfB5Xz0oTtamLluaut1MVPBH0Od2YWCuAg2De25w1Qa99TLhFZBtpWtzlFrZwbqWzUtRkRMz53haRzUwxnr~rzHF3FAIqEaWo0hEspeXt9b8m_Lfu2eYyKe9ALiQy3w8aJti5bcAcyPX2tUXC4LeEeWunf~Y7MFwvshY_KAZIC8pS~D8hpOoQKfnCjTUgLohjhzl_XVJF2QO_Y0HrwfEiP95Hi8c~xCnoAshZ2mangWi9kwLVa0aHNCso1JeT5Bc7oRyWwHUhfvE0UxAlZ_r1mq06WiSl4X~qppchwnm7U3S6Cj6pKaFW51w572Tq~xQU9ZnUepvvf1xzsXhlbGPR_HyURDa5hOAg-&fid=E08E41D4C8CB4BBEBFC2CBBCE9242545&gsid=8500d35b373d430d82598c107386bce4"
     }, {
       "captionCountrySimpleName": "CN",
       "captionSimpleName": "ZH_CN",
-      "name": "????",
+      "name": "简体中文",
       "fileHash": "F80718DB0629C7B598E09C8BB07A89D7",
       "language": 4,
-      "url": "/vod.do?pm=d7wrCW0sUKHfQDzHAxoU95Kn73sJdcXOvxftloo7BQiTSgUD5g50Jpo_mWrKVBQs9jt25_uFeX65l_BZh1IVEpznpKMi9uYCIxmig_~eXeESfTqe~VO12aaMOZNaOUBEDRkVmhdorOiYwybQPWiCZoVUXnyHDgVSFAzpMWcWYR5AKH13LQKi7QiyuKbt1DdZiT87gi5AHqAuM7X1lKuY93su4fG1y3Uxdzi_yJ_AARvNbz~lr9FzONO91yoj7p1PGehJ25iAsf7uUwz47KLfDR34V~lgaut9TLzqlfYu56EImL8wh7oiXzGajl3Nygy5btsPToc30sItis6vz2D2hn0cV9L5hQrwT8ZDnWHKOqk-&fid=89D3683D655AC5A405887608BF7E636B&gsid=e4138287eaa148c5843db1365f72414d"
+      "url": "/vod.do?pm=d7wrCW0sUKHfQDzHAxoU95Kn73sJdcXOvxftloo7BQiTSgUD5g50Jpo_mWrKVBQs9jt25_uFeX65l_BZh1IVEpznpKMi9uYCIxmig_~eXeESfTqe~VO12aaMOZNaOUBEDRkVmhdorOiYwybQPWiCZoVUXnyHDgVSFAzpMWcWYR5AKH13LQKi7QiyuKbt1DdZiT87gi5AHqAuM7X1lKuY93su4fG1y3Uxdzi_yJ_AARvNbz~lr9FzONO91yoj7p1PGehJ25iAsf7uUwz47KLfDR34V~lgaut9TLzqlfYu56EImL8wh7oiXzGajl3Nygy5btsPToc30sItis6vz2D2hn0cV9L5hQrwT8ZDnWHKOqk-&fid=89D3683D655AC5A405887608BF7E636B&gsid=1492bd35f528482e8168c0415ac78cc4"
     }]
   },
   "code": 200,
   "msg": "",
-  "seqid": "1fd5b5635f4a464592417ca7c7ce9113",
-  "timestamp": 1782787098935
+  "seqid": "79a897c4f6ce433dab0239297e1a4f46",
+  "timestamp": 1782791743562
 }
+
+summary:
+========
+caption_languages_data.data.title.map(obj => `"${obj.captionSimpleName}" = ${obj.name}`).sort().join(', ')
+========
+"DE" = Deutsch, "DR" = العربية, "EN" = English, "ES" = Español, "FIL" = Filipino, "FR" = Français, "ID" = Bahasa Indonesia, "IT" = Italiano, "JA" = 日本語, "KO" = 한국어, "MS" = Bahasa Malaysia, "PT" = Português, "RU" = Русский, "SW" = Kiswahili, "TH" = ภาษาไทย, "VI" = Tiếng Việt, "ZH_CN" = 简体中文, "ZH_HK" = 繁體中文
 
 --------------------------------------------------------------------------------
 
-https://disp-glb.titan.mgtv.com/vod.do?pm=0E6bNBdqPYWWABnt65nR8O4y7hoqw8ayJerzAibePOs6Nq7ZNzGYTzgiIbLN4abAjKgC4moK_KOA7mlXaLmQ0rJpkTS4pKVV_71kDS5a~a2DEza~5p2bUYRA5kJHpQmTyGIloT6L2ovLwoIGUhwKFRpAOdWkGsy1JFNvGmQqFFpTQZCkVPli4as3dBL1alQ__1EMVhTMX7XyElbpJbqwJ16yLMjhrcyj0lmKyZZRdLZKSbP_Wg4MWYl~H__BvZoaY0GQFSVrGrmvKDOyduMvQE_T58Wovktyu_pqAXZ7iqRFHwhkHs9_vHgoyS_bS7au3_l7us9WbbR59PLvcG0HuVNEH2U9TScBpWrNftZQ6cc-&fid=76E629897C348CB83E32AE37D8E2FE93&gsid=80023be8647d4cd98f4c3b9f4e701dcb
+https://disp-glb.titan.mgtv.com/vod.do?pm=0E6bNBdqPYWWABnt65nR8O4y7hoqw8ayJerzAibePOs6Nq7ZNzGYTzgiIbLN4abAjKgC4moK_KOA7mlXaLmQ0rJpkTS4pKVV_71kDS5a~a2DEza~5p2bUYRA5kJHpQmTyGIloT6L2ovLwoIGUhwKFRpAOdWkGsy1JFNvGmQqFFpTQZCkVPli4as3dBL1alQ__1EMVhTMX7XyElbpJbqwJ16yLMjhrcyj0lmKyZZRdLZKSbP_Wg4MWYl~H__BvZoaY0GQFSVrGrmvKDOyduMvQE_T58Wovktyu_pqAXZ7iqRFHwhkHs9_vHgoyS_bS7au3_l7us9WbbR59PLvcG0HuVNEH2U9TScBpWrNftZQ6cc-&fid=76E629897C348CB83E32AE37D8E2FE93&gsid=79b54f67b9834111b1bba91874ca7f8d
 
 {
   "ver": "4.8.4",

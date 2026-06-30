@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.6
+// @version      1.0.7
 // @include      /^https?:\/\/(?:[^\.]+\.)*mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
@@ -22,10 +22,15 @@
 
 var user_options = {
   "common": {
-    "redirect_to_best_resolution": false,
+    "caption_language": "EN",             // language code (null = no captions, "DE" = Deutsch, "DR" = العربية, "EN" = English, "ES" = Español, "FIL" = Filipino, "FR" = Français, "ID" = Bahasa Indonesia, "IT" = Italiano, "JA" = 日本語, "KO" = 한국어, "MS" = Bahasa Malaysia, "PT" = Português, "RU" = Русский, "SW" = Kiswahili, "TH" = ภาษาไทย, "VI" = Tiếng Việt, "ZH_CN" = 简体中文, "ZH_HK" = 繁體中文)
+    "redirect_to_best_resolution": false, // issue: when true, the caption URL is not retrieved from its API
     "if_redirect": {
-      "max_resolution": 0 // 0 = no max limit
+      "max_resolution": 0                 // 0 = no max limit
     }
+  },
+  "corsproxy": {
+    "video_data":   false,
+    "caption_data": true
   },
   "developer": {
     "debug": true,
@@ -46,9 +51,11 @@ var api_querystring_params = {
     "abroad": 10, // language code (10 = English, 0 = Chinese)
   },
   "dynamic": {
-    "api_data":    function() {return '&did=' + state.did + '&abroad=' + api_querystring_params.constants.abroad + '&_support=10000000&type=pch5&auth_mode=1&src=intelmgtv&allowedRC=1&cxid='},
-    "stream_data": function() {return                       '&abroad=' + api_querystring_params.constants.abroad + '&_support=10000000&type=pch5&auth_mode=1&src=intelmgtv&allowedRC=1&cxid=' + '&supportMse=1'},
-    "video_data":  function() {return '&did=' + state.did}
+    "api_data":               function() {return '&did=' + state.did + '&abroad=' + api_querystring_params.constants.abroad + '&_support=10000000&allowedRC=1&type=pch5&auth_mode=1&src=intelmgtv&cxid='},
+    "stream_data":            function() {return                       '&abroad=' + api_querystring_params.constants.abroad + '&_support=10000000&allowedRC=1&type=pch5&auth_mode=1&src=intelmgtv&cxid=' + '&supportMse=1'},
+    "video_data":             function() {return '&did=' + state.did},
+    "caption_languages_data": function() {return                                                                              '&_support=10000000&allowedRC=1'},
+    "caption_data":           function() {return ''}
   }
 }
 
@@ -58,7 +65,8 @@ var state = {
   tk2:            null,
   pm2:            null,
   streams:        null,
-  stream_domains: null
+  stream_domains: null,
+  caption_url:    null
 }
 
 // ----------------------------------------------------------------------------- helpers (state)
@@ -107,7 +115,7 @@ var serialize_xhr_body_object = function(data) {
   for (var i=0; i < keys.length; i++) {
     key = keys[i]
     val = data[key]
-    val = unsafeWindow.encodeURIComponent(val)
+    val = encodeURIComponent(val)
 
     body.push(key + '=' + val)
   }
@@ -186,6 +194,12 @@ var download_json = function(url, headers, data, callback) {
       }
     }
   })
+}
+
+// ----------------------------------------------------------------------------- helpers (corsproxy)
+
+var corsproxy = function(url) {
+  return 'https://cors-yt-dlp-web-console.warren-bank.workers.dev/?key=warren-bank&url=' + encodeURIComponent(url)
 }
 
 // ----------------------------------------------------------------------------- helpers (API)
@@ -270,6 +284,9 @@ var download_video_data = function(callback, stream_index, stream_domain_index) 
 
   var api_url = state.stream_domains[stream_domain_index] + state.streams[stream_index].url + api_querystring_params.dynamic.video_data()
 
+  if (user_options.corsproxy.video_data)
+    api_url = corsproxy(api_url)
+
   download_json(api_url, null, null, function(error, video_data){
     var video_url
 
@@ -285,10 +302,66 @@ var download_video_data = function(callback, stream_index, stream_domain_index) 
         throw 'busy'
 
       if (video_url)
-        callback(video_url)
+        callback(video_url, null, state.caption_url)
     }
     catch(e) {
       download_video_data(callback, stream_index, stream_domain_index + 1)
+    }
+  })
+}
+
+var download_caption_languages_data = function(callback) {
+  if (!user_options.common.caption_language) return
+
+  var api_url = 'https://pcweb.api.mgtv.com/video/title?videoId=' + state.video_id + api_querystring_params.dynamic.caption_languages_data()
+
+  download_json(api_url, null, null, function(error, caption_languages_data){
+    if (user_options.developer.debug)
+      console.log('caption_languages_data:', error || JSON.stringify(caption_languages_data, null, 2))
+
+    if (error) return
+
+    try {
+      caption_languages_data = caption_languages_data['data']['title']
+        .filter(function(caption){
+          return caption && (typeof caption === 'object') && caption.url && (caption.captionSimpleName === user_options.common.caption_language)
+        })
+
+      if (caption_languages_data.length === 1)
+        callback(caption_languages_data[0]['url'])
+    }
+    catch(e) {}
+  })
+}
+
+var download_caption_data = function(api_url_pathname, stream_domain_index) {
+  stream_domain_index = stream_domain_index || 0
+  if (stream_domain_index >= state.stream_domains.length) return
+
+  var api_url = state.stream_domains[stream_domain_index] + api_url_pathname + api_querystring_params.dynamic.caption_data()
+
+  if (user_options.corsproxy.caption_data)
+    api_url = corsproxy(api_url)
+
+  download_json(api_url, null, null, function(error, caption_data){
+    var caption_url
+
+    if (user_options.developer.debug)
+      console.log('caption_data:', error || JSON.stringify(caption_data, null, 2))
+
+    try {
+      if (error) throw error
+
+      caption_url = caption_data.info
+
+      if (caption_url === 'busy')
+        throw 'busy'
+
+      if (caption_url)
+        state.caption_url = caption_url
+    }
+    catch(e) {
+      download_caption_data(api_url_pathname, stream_domain_index + 1)
     }
   })
 }
@@ -950,6 +1023,7 @@ var init = function() {
     download_stream_data(function(){
       // only called when automatic redirect is disabled
       display_streams()
+      download_caption_languages_data(download_caption_data)
     })
   })
 }
