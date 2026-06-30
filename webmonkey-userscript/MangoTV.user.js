@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.5
+// @version      1.0.6
 // @include      /^https?:\/\/(?:[^\.]+\.)*mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
@@ -25,9 +25,6 @@ var user_options = {
     "redirect_to_best_resolution": false,
     "if_redirect": {
       "max_resolution": 0 // 0 = no max limit
-    },
-    "no_redirect": {
-      "abroad": 10 // language code that translated the name of each stream resolution. (10 = English, 0 = Chinese)
     }
   },
   "developer": {
@@ -41,6 +38,17 @@ var user_options = {
     "redirect_to_webcast_reloaded": true,
     "force_http":                   true,
     "force_https":                  false
+  }
+}
+
+var api_querystring_params = {
+  "constants": {
+    "abroad": 10, // language code (10 = English, 0 = Chinese)
+  },
+  "dynamic": {
+    "api_data":    function() {return '&did=' + state.did + '&abroad=' + api_querystring_params.constants.abroad + '&_support=10000000&type=pch5&auth_mode=1&src=intelmgtv&allowedRC=1&cxid='},
+    "stream_data": function() {return                       '&abroad=' + api_querystring_params.constants.abroad + '&_support=10000000&type=pch5&auth_mode=1&src=intelmgtv&allowedRC=1&cxid=' + '&supportMse=1'},
+    "video_data":  function() {return '&did=' + state.did}
   }
 }
 
@@ -183,7 +191,7 @@ var download_json = function(url, headers, data, callback) {
 // ----------------------------------------------------------------------------- helpers (API)
 
 var download_api_data = function(callback) {
-  var api_url = 'https://pcweb.api.mgtv.com/player/video?video_id=' + state.video_id + '&tk2=' + state.tk2
+  var api_url = 'https://pcweb.api.mgtv.com/player/video?video_id=' + state.video_id + '&tk2=' + state.tk2 + api_querystring_params.dynamic.api_data()
 
   download_json(api_url, null, null, function(error, api_data){
     if (user_options.developer.debug)
@@ -202,10 +210,7 @@ var download_api_data = function(callback) {
 }
 
 var download_stream_data = function(callback) {
-  var api_url = 'https://pcweb.api.mgtv.com/player/getSource?video_id=' + state.video_id + '&tk2=' + state.tk2 + '&pm2=' + state.pm2 + '&_support=10000000'
-
-  if (!user_options.common.redirect_to_best_resolution && user_options.common.no_redirect.abroad)
-    api_url += '&abroad=' + user_options.common.no_redirect.abroad
+  var api_url = 'https://pcweb.api.mgtv.com/player/getSource?video_id=' + state.video_id + '&tk2=' + state.tk2 + '&pm2=' + state.pm2 + api_querystring_params.dynamic.stream_data()
 
   download_json(api_url, null, null, function(error, stream_data){
     var streams
@@ -263,7 +268,7 @@ var download_video_data = function(callback, stream_index, stream_domain_index) 
   if (stream_index >= state.streams.length) return
   if (stream_domain_index >= state.stream_domains.length) return
 
-  var api_url = state.stream_domains[stream_domain_index] + state.streams[stream_index].url + '&did=' + state.did
+  var api_url = state.stream_domains[stream_domain_index] + state.streams[stream_index].url + api_querystring_params.dynamic.video_data()
 
   download_json(api_url, null, null, function(error, video_data){
     var video_url
