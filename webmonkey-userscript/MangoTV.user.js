@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.7
+// @version      1.0.8
 // @include      /^https?:\/\/(?:[^\.]+\.)*mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
@@ -66,7 +66,17 @@ var state = {
   pm2:            null,
   streams:        null,
   stream_domains: null,
-  caption_url:    null
+  caption_url:    null,
+  drm:            null, // TODO: haven't found any videos that populate this object with values.. will need to integrate them into: video_data.drm
+  info: {
+    series: {
+      title:      null,
+      id:         null
+    },
+    episode: {
+      title:      null
+    }
+  }
 }
 
 // ----------------------------------------------------------------------------- helpers (state)
@@ -215,6 +225,20 @@ var download_api_data = function(callback) {
 
     try {
       state.pm2 = api_data['data']['atc']['pm2']
+
+      if (state.pm2) {
+        try {
+          state.drm = api_data['data']['drm']
+        }
+        catch(e2) {}
+
+        try {
+          state.info.episode.title = api_data['data']['info']['desc']
+          state.info.series.title  = api_data['data']['info']['title']
+          state.info.series.id     = api_data['data']['info']['collection_id']
+        }
+        catch(e3) {}
+      }
 
       if (state.pm2)
         callback()
@@ -980,6 +1004,12 @@ var display_streams = function() {
   if (!streams_div) return
 
   html = []
+  if (state.info.series.title && state.info.series.id) {
+    html.push('<h2>Series: <a href="/h/' + state.info.series.id + '.html?lang=en">' + state.info.series.title + '</a></h2>')
+  }
+  if (state.info.episode.title) {
+    html.push('<h2>Episode: ' + state.info.episode.title + '</h2>')
+  }
   html.push('<ul>')
   for (var i=0; i < state.streams.length; i++) {
     html.push(make_stream_listitem_html(i))
