@@ -15,9 +15,9 @@ Its purpose is to:
 
 Notes:
 * website account login is _not_ required to obtain the video URL
-* the video URL does _not_ require request headers
-  - such as: Referer, Cookie, Authorization
 * the video URL is _not_ geo restricted
+* the video URL _does_ require the request header:
+  - Referer
 
 #### Legal:
 
