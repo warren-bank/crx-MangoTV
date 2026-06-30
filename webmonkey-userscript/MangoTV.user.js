@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.4
-// @include      /^https?:\/\/(?:w(?:ww)?\.)?mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
+// @version      1.0.5
+// @include      /^https?:\/\/(?:[^\.]+\.)*mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
 // @grant        unsafeWindow
+// @grant        GM_getUserAgent
 // @grant        GM_setUserAgent
 // @grant        GM_startIntent
 // @homepage     https://github.com/warren-bank/crx-MangoTV/tree/webmonkey-userscript/es5
@@ -33,6 +34,7 @@ var user_options = {
     "debug": true,
   },
   "webmonkey": {
+    "firefox_useragent":            "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
     "post_intent_redirect_to_url":  function() {return user_options.common.redirect_to_best_resolution ? "about:blank" : null}
   },
   "greasemonkey": {
@@ -43,11 +45,11 @@ var user_options = {
 }
 
 var state = {
-  video_id: null,
-  did:      null,
-  tk2:      null,
-  pm2:      null,
-  streams:  null,
+  video_id:       null,
+  did:            null,
+  tk2:            null,
+  pm2:            null,
+  streams:        null,
   stream_domains: null
 }
 
@@ -912,8 +914,26 @@ var display_streams = function() {
 
 // ----------------------------------------------------------------------------- bootstrap
 
+var configure_WM_useragent = function() {
+  // WebMonkey API is required
+  if ((typeof GM_getUserAgent !== 'function') || (typeof GM_setUserAgent !== 'function'))
+    return
+
+  var initial_useragent = GM_getUserAgent()
+
+  if (user_options.developer.debug)
+    console.log('user-agent:', initial_useragent)
+
+  if (initial_useragent === user_options.webmonkey.firefox_useragent)
+    return
+
+  GM_setUserAgent(user_options.webmonkey.firefox_useragent)
+}
+
 var init = function() {
-  var video_id_regex = /^https?:\/\/(?:w(?:ww)?\.)?mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
+  configure_WM_useragent()
+
+  var video_id_regex = /^https?:\/\/(?:[^\.]+\.)*mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
   var match = video_id_regex.exec(unsafeWindow.location.href)
   if (!match) return
   reset_dom()
@@ -931,8 +951,5 @@ var init = function() {
 
 if (user_options.developer.debug)
   debugger;
-
-if (typeof GM_setUserAgent === 'function')
-  GM_setUserAgent("Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0");
 
 init()
