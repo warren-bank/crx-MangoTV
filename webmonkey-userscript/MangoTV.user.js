@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MangoTV
 // @description  Watch videos in external player.
-// @version      1.0.8
+// @version      1.0.9
 // @include      /^https?:\/\/(?:[^\.]+\.)*mgtv\.com\/[vb]\/(?:[^\/]+\/)*(\d+)\.html(?:[\?#].*)?$/
 // @icon         https://w.mgtv.com/favicon.ico
 // @run-at       document-start
@@ -209,7 +209,16 @@ var download_json = function(url, headers, data, callback) {
 // ----------------------------------------------------------------------------- helpers (corsproxy)
 
 var corsproxy = function(url) {
-  return 'https://cors-yt-dlp-web-console.warren-bank.workers.dev/?key=warren-bank&url=' + encodeURIComponent(url)
+  // https://github.com/warren-bank/cloudflare-workers/tree/corsproxy
+  // https://github.com/warren-bank/single-page-apps/blob/gh-pages/yt-dlp-web-console/index.pyodide-0.27.0-fork-2.0.0.html#L620
+  // https://github.com/warren-bank/single-page-apps/blob/gh-pages/yt-dlp-web-console/index.pyodide-0.27.0-fork-2.0.0.html#L764
+
+  url = 'https://cors-yt-dlp-web-console.warren-bank.workers.dev/?key=warren-bank&url=' + encodeURIComponent(url)
+
+  if (user_options.webmonkey.firefox_useragent)
+    url += '&reqHeaders=' + encodeURIComponent('user-agent:' + user_options.webmonkey.firefox_useragent)
+
+  return url
 }
 
 // ----------------------------------------------------------------------------- helpers (API)
@@ -306,7 +315,12 @@ var download_video_data = function(callback, stream_index, stream_domain_index) 
   if (stream_index >= state.streams.length) return
   if (stream_domain_index >= state.stream_domains.length) return
 
-  var api_url = state.stream_domains[stream_domain_index] + state.streams[stream_index].url + api_querystring_params.dynamic.video_data()
+  var api_url = state.streams[stream_index].url + api_querystring_params.dynamic.video_data()
+
+  if (api_url[0] === '/')
+    api_url = state.stream_domains[stream_domain_index] + api_url
+  else
+    stream_domain_index = state.stream_domains.length
 
   if (user_options.corsproxy.video_data)
     api_url = corsproxy(api_url)
@@ -362,7 +376,12 @@ var download_caption_data = function(api_url_pathname, stream_domain_index) {
   stream_domain_index = stream_domain_index || 0
   if (stream_domain_index >= state.stream_domains.length) return
 
-  var api_url = state.stream_domains[stream_domain_index] + api_url_pathname + api_querystring_params.dynamic.caption_data()
+  var api_url = api_url_pathname + api_querystring_params.dynamic.caption_data()
+
+  if (api_url[0] === '/')
+    api_url = state.stream_domains[stream_domain_index] + api_url
+  else
+    stream_domain_index = state.stream_domains.length
 
   if (user_options.corsproxy.caption_data)
     api_url = corsproxy(api_url)
@@ -1025,6 +1044,10 @@ var display_streams = function() {
 var configure_WM_useragent = function() {
   // WebMonkey API is required
   if ((typeof GM_getUserAgent !== 'function') || (typeof GM_setUserAgent !== 'function'))
+    return
+
+  // skip if corsproxy is always used
+  if (user_options.corsproxy.video_data && user_options.corsproxy.caption_data)
     return
 
   var initial_useragent = GM_getUserAgent()
